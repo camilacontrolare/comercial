@@ -1,0 +1,26 @@
+Componente;Item;Unidade;Valor de referência (R$) [AJUSTAR];Observação
+Base;MEI;mensal;;Apenas DASN-SIMEI e orientação - avaliar se compensa atender
+Base;Simples Nacional - Serviços;mensal;;Inclui até 1 pró-labore
+Base;Simples Nacional - Comércio;mensal;;Considerar ICMS/ST
+Base;Lucro Presumido;mensal;;
+Base;Lucro Real;mensal;;Sob consulta - precificar por horas
+Multiplicador faturamento;Até R$ 30 mil/mês;fator;1,0;
+Multiplicador faturamento;R$ 30 a 100 mil/mês;fator;1,2;
+Multiplicador faturamento;R$ 100 a 300 mil/mês;fator;1,5;
+Multiplicador faturamento;Acima de R$ 300 mil/mês;fator;2,0;Ou sob consulta
+Folha;Por funcionário CLT;por pessoa/mês;;
+Folha;Por pró-labore adicional;por pessoa/mês;;
+Volume;Até 50 notas/lançamentos;mensal;0;Incluso na base
+Volume;51 a 200 notas/lançamentos;mensal;;
+Volume;Acima de 200 notas/lançamentos;mensal;;Sob consulta
+Complexidade;Filial adicional;por filial/mês;;
+Complexidade;Contribuinte de ICMS com ST;mensal;;
+Complexidade;Importação/Exportação;mensal;;
+Pacote;Gestão;fator sobre o total;1,4;Relatório gerencial + reunião trimestral + planejamento
+Pacote;Estratégico;fator sobre o total;2,2;Contador dedicado + reunião mensal + BPO
+Avulso;Abertura de empresa;único;;Taxas de órgãos à parte
+Avulso;Alteração contratual;único;;Taxas de órgãos à parte
+Avulso;Encerramento de empresa;único;;
+Avulso;IRPF de sócio;por declaração;;
+Avulso;Regularização de período anterior;por mês regularizado;;
+Avulso;Parcelamento de débitos;único;;
