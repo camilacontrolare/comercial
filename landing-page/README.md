@@ -13,19 +13,32 @@ Conteúdo: formulário de qualificação, soluções, abertura de empresa médic
 - Se o anúncio usar parâmetros UTM (ex.: `?utm_campaign=medico-pj`), a mensagem chega com `(ref: medico-pj)` no final. Assim a Camila sabe de qual campanha veio o lead e preenche a coluna *Campanha* do pipeline.
 - Cada clique em "Falar no WhatsApp" dispara o evento **Lead** do Meta Pixel e do Google, depois que o gestor de tráfego colar os códigos no espaço indicado dentro do `index.html`.
 
-## Como publicar
+## Como publicar (site no Wix)
 
-**Opção 1: no seu site atual (recomendado)**
-Na hospedagem do www.contabilidadecontrolare.com.br, crie uma pasta `saude` e envie o `index.html` (pelo painel da hospedagem ou por FTP). A página fica em:
-`www.contabilidadecontrolare.com.br/saude`
+O Wix não aceita o envio de arquivos HTML como página. Por isso a landing page fica hospedada no **Netlify** (grátis) e ganha um endereço do próprio domínio da Controlare: **saude.contabilidadecontrolare.com.br**.
 
-Se o site for feito em WordPress, Wix ou similar e não aceitar o envio de arquivos, use a opção 2.
+### 1. Publicar no Netlify (5 minutos)
+1. No computador, crie uma pasta chamada `controlare-saude` e coloque dentro dela o arquivo `index.html`.
+2. Acesse **app.netlify.com/drop** e crie uma conta gratuita (pode entrar com o Google).
+3. Arraste a pasta `controlare-saude` para a área indicada na página.
+4. Em segundos a página fica no ar, com um endereço do tipo `nome-aleatorio.netlify.app`.
+5. Em **Site configuration → Change site name**, troque o nome para algo como `controlare-saude`. O endereço vira `controlare-saude.netlify.app`, que já pode ser usado nos anúncios.
 
-**Opção 2: Netlify (grátis, sem programar)**
-1. Acesse **app.netlify.com/drop** e crie uma conta.
-2. Arraste a pasta `landing-page` para a página.
-3. Em segundos sai um link do tipo `controlare-saude.netlify.app`.
-4. Opcional: em *Domain settings*, adicione `saude.contabilidadecontrolare.com.br` e crie no seu provedor de domínio o registro DNS que o Netlify indicar.
+### 2. Usar o domínio da Controlare (opcional, recomendado)
+1. No Netlify: **Domain management → Add a domain** → digite `saude.contabilidadecontrolare.com.br` → confirme.
+2. O Netlify vai pedir um registro **CNAME** apontando para `controlare-saude.netlify.app`.
+3. Crie esse registro onde o DNS do domínio é gerenciado:
+   - **Se o domínio foi comprado ou conectado pelo Wix com os servidores do Wix:** no painel do Wix, vá em **Configurações → Domínios → ⋮ (ao lado do domínio) → Gerenciar registros DNS → CNAME → Adicionar registro**. Em *Nome do host*, coloque `saude`; em *Valor*, `controlare-saude.netlify.app`. Salve.
+   - **Se o domínio está registrado no Registro.br ou em outro provedor que gerencia o DNS:** crie o mesmo CNAME no painel desse provedor.
+4. Aguarde a propagação (normalmente minutos, podendo levar até 48 horas). O Netlify ativa o HTTPS (cadeado) automaticamente.
+
+### 3. Ligar ao site atual
+No editor do Wix, adicione um botão ou item de menu "Contabilidade para a saúde" com link para `https://saude.contabilidadecontrolare.com.br`.
+
+### Para atualizar a página no futuro
+No Netlify, abra o site → **Deploys** → arraste a pasta com o novo `index.html`. O endereço continua o mesmo.
+
+> **Pixel e Google Tag:** os códigos de medição instalados no Wix **não** valem para esta página. O gestor de tráfego precisa colar os códigos no `index.html` (há um espaço indicado no início do arquivo) antes de publicar.
 
 ## Para alterar
 
