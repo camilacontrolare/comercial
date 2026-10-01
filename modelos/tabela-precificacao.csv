@@ -1,17 +1,18 @@
 Componente;Item;Unidade;Valor (R$);Observação
-Plano;Essencial;mensal;297,00;Profissional PJ sem funcionários - 1 pró-labore - até 15 NF/mês
-Plano;Gestão;mensal;497,00;Até 2 funcionários - até 2 pró-labores - até 40 NF/mês - relatório mensal - planejamento anual
-Plano;Premium;mensal;797,00;Até 8 funcionários - até 4 pró-labores - até 100 NF/mês - reunião trimestral - IRPF de 1 sócio
+Plano;Essencial;mensal;297,00;Gestão contábil completa
+Plano;Gestão;mensal;497,00;Essencial + emissão de notas fiscais + WhatsApp + controle de alvarás e certificado + aplicativo Controlare
+Plano;Premium;mensal;797,00;Gestão + planejamento tributário + folha de pagamento + relatórios de gestão trimestrais
 Plano;Personalizado;mensal;a partir de 797,00;Clínicas acima dos limites do Premium - calcular com os adicionais
-Adicional;Funcionário acima do limite do plano;por pessoa/mês;[AJUSTAR];
-Adicional;Sócio/pró-labore acima do limite do plano;por pessoa/mês;[AJUSTAR];
-Adicional;Faixa extra de até 50 notas fiscais;mensal;[AJUSTAR];
+Adicional;Funcionário acima do padrão do Premium;por pessoa/mês;[AJUSTAR];
+Adicional;Volume alto de notas fiscais;mensal;[AJUSTAR];
 Adicional;Filial;por filial/mês;[AJUSTAR];
 Adicional;Lucro Presumido com equiparação hospitalar;mensal;[AJUSTAR];Controles adicionais exigidos
-Avulso;Abertura de empresa;único;[AJUSTAR];Taxas de órgãos à parte - avaliar isenção com fidelidade de 12 meses
+Avulso;Abertura de empresa;único;[AJUSTAR];Honorário do escritório - avaliar isenção com fidelidade de 12 meses
+Taxa (Juiz de Fora);Taxa estadual de abertura;único;297,00;Paga pelo cliente ao órgão estadual
+Taxa (Juiz de Fora);Taxa municipal de abertura;único;0,00;Isenta
 Avulso;Alteração contratual (entrada/saída de sócio);único;[AJUSTAR];Taxas de órgãos à parte
 Avulso;Encerramento de empresa;único;[AJUSTAR];
-Avulso;IRPF de sócio;por declaração;[AJUSTAR];Incluso para 1 sócio no Premium
+Avulso;IRPF de sócio;por declaração;[AJUSTAR];
 Avulso;Regularização de período anterior;por mês regularizado;[AJUSTAR];
 Avulso;Parcelamento de débitos;único;[AJUSTAR];
 Avulso;Simulação PF x PJ / planejamento tributário avulso;único;[AJUSTAR];Gratuita na reunião comercial

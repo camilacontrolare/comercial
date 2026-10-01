@@ -1,9 +1,11 @@
 # Landing page: Contabilidade para profissionais da saúde
 
-Página feita para receber os cliques do tráfego pago. São só dois arquivos:
+Página feita para receber os cliques do tráfego pago, com o logo, as cores (laranja e grafite) e o slogan da Controlare.
 
-- `index.html`: a página
-- `logo.png`: o logo da Controlare
+- `index.html`: a página completa. O logo já está embutido no arquivo, então **basta publicar este arquivo**.
+- `logo.png`: cópia do logo, para outros usos.
+
+Conteúdo: formulário de qualificação, soluções, abertura de empresa médica (5 etapas, documentos e prazo de 48h em Juiz de Fora), tabela dos planos Essencial, Gestão e Premium (sem preços, só "a partir de R$ 297/mês"), diferenciais e perguntas frequentes.
 
 ## Como funciona
 
@@ -14,7 +16,7 @@ Página feita para receber os cliques do tráfego pago. São só dois arquivos:
 ## Como publicar
 
 **Opção 1: no seu site atual (recomendado)**
-Na hospedagem do www.contabilidadecontrolare.com.br, crie uma pasta `saude` e envie os dois arquivos (pelo painel da hospedagem ou por FTP). A página fica em:
+Na hospedagem do www.contabilidadecontrolare.com.br, crie uma pasta `saude` e envie o `index.html` (pelo painel da hospedagem ou por FTP). A página fica em:
 `www.contabilidadecontrolare.com.br/saude`
 
 Se o site for feito em WordPress, Wix ou similar e não aceitar o envio de arquivos, use a opção 2.

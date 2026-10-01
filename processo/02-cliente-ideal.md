@@ -40,20 +40,22 @@ Use estes temas nos anúncios, nas reuniões e no conteúdo. **Não prometa econ
 - **Quem é:** 25–35 anos, faz plantões em hospitais, UPAs ou cooperativas; hospitais exigem PJ.
 - **Dor:** foi obrigado(a) a abrir CNPJ, não entende os impostos, medo de errar; ou paga muito no carnê-leão.
 - **Gatilho:** nova vaga que exige PJ; primeiro IRPF assustador.
-- **Pacote típico:** **Essencial (R$ 297)** + abertura de empresa.
+- **Pacote típico:** **Gestão (R$ 497)**, com emissão das notas para os hospitais, ou **Essencial (R$ 297)** se emitir as próprias notas + abertura de empresa.
 
 ### 2. Profissional com consultório próprio
 - **Quem é:** dentista, psicólogo(a), fisioterapeuta, nutricionista com consultório, às vezes 1 secretária.
 - **Dor:** contador "que só manda guia", não sabe se está no anexo certo, mistura conta PF e PJ.
 - **Gatilho:** contratou funcionário, faturamento cresceu, recebeu notificação.
-- **Pacote típico:** **Gestão (R$ 497)**.
+- **Pacote típico:** **Gestão (R$ 497)** sem funcionários; **Premium (R$ 797)** se tiver secretária (folha de pagamento).
 
 ### 3. Sócios de clínica
 - **Quem é:** 2–4 sócios, 3–15 funcionários, convênios e particulares.
 - **Dor:** folha complexa, divisão de lucros entre sócios, dúvidas sobre Lucro Presumido e equiparação hospitalar, falta de relatório gerencial.
 - **Gatilho:** entrada de novo sócio, expansão, insatisfação com erros na folha.
-- **Pacote típico:** **Premium (R$ 797)** ou acima (caminho consultivo).
+- **Pacote típico:** **Premium (R$ 797)** ou proposta personalizada (caminho consultivo).
 
 ## Posicionamento `[AJUSTAR]`
 
-> "Contabilidade especializada para profissionais da saúde: você cuida dos pacientes, nós cuidamos para que você pague somente o imposto devido — com atendimento rápido pelo WhatsApp e uma equipe que entende a sua rotina."
+Slogan da marca: **"Mais que números, estratégia para o seu futuro."**
+
+> "Contabilidade especializada para profissionais da saúde: você cuida dos pacientes, nós cuidamos para que você pague somente o imposto devido — com atendimento próximo e uma equipe que entende a sua rotina."

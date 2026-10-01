@@ -16,29 +16,28 @@ Dr(a). [Nome] é [especialidade] e atua em [plantões no Hospital X / consultór
 ## 2. O que vamos alcançar juntos
 
 - ✅ [Ex.: abrir sua PJ com o enquadramento mais adequado à sua atividade]
-- ✅ [Ex.: acompanhar o Fator R todo mês e ajustar o pró-labore]
-- ✅ [Ex.: você saber, todo mês, quanto faturou, quanto pagou de imposto e quanto pode retirar]
+- ✅ [Ex.: analisar o enquadramento (Fator R) e definir o melhor regime — planejamento tributário no Premium]
+- ✅ [Ex.: suas notas emitidas por nós e atendimento direto pelo WhatsApp e pelo aplicativo Controlare]
 
 > As possibilidades de redução de impostos dependem da análise dos seus documentos e da legislação vigente; não representam garantia de resultado.
 
 ## 3. Planos
 
-| | Essencial | **Gestão** ⭐ | Premium |
+| Soluções | Essencial | **Gestão** ⭐ | Premium |
 |---|:-:|:-:|:-:|
 | **Honorário mensal** | **R$ 297** | **R$ 497** | **R$ 797** |
-| Indicado para | Profissional PJ sem funcionários | Consultório com até 2 funcionários | Clínica / sociedade até 8 funcionários |
-| Contabilidade, impostos e obrigações | ✅ | ✅ | ✅ |
-| Monitoramento mensal do Fator R | ✅ | ✅ | ✅ |
-| Notas fiscais/mês (suporte) | até 15 | até 40 | até 100 |
-| Pró-labore | 1 sócio | até 2 sócios | até 4 sócios |
-| Folha de pagamento e eSocial | — | até 2 funcionários | até 8 funcionários |
-| Atendimento pelo WhatsApp | até 24h úteis | até 4h úteis | prioritário + contador dedicado |
-| Relatório mensal simplificado | — | ✅ | ✅ |
-| Planejamento tributário anual | — | ✅ | ✅ |
-| Reunião de acompanhamento | — | semestral | trimestral |
-| IRPF do sócio | à parte | à parte | 1 incluso |
+| Gestão contábil completa | ✅ | ✅ | ✅ |
+| Emissão de notas fiscais | — | ✅ | ✅ |
+| Relacionamento pelo WhatsApp | — | ✅ | ✅ |
+| Controle de alvarás e certificado digital | — | ✅ | ✅ |
+| Acesso ao aplicativo Controlare | — | ✅ | ✅ |
+| Planejamento tributário | — | — | ✅ |
+| Gestão de folha de pagamento de funcionários | — | — | ✅ |
+| Relatórios de gestão trimestrais | — | — | ✅ |
 
-**Não incluso (cobrado à parte):** abertura/alteração/encerramento de empresa, IRPF (exceto Premium), regularização de períodos anteriores, parcelamentos, itens acima dos limites do plano.
+**Não incluso (cobrado à parte):** abertura/alteração/encerramento de empresa, IRPF, regularização de períodos anteriores, parcelamentos.
+
+**Abertura de empresa médica em Juiz de Fora/MG:** taxa estadual R$ 297,00 · taxa municipal isenta · CNPJ em cerca de 48 horas após o envio dos documentos e o pagamento da taxa.
 
 ## 4. Condições
 
@@ -62,8 +61,8 @@ Dr(a). [Nome] é [especialidade] e atua em [plantões no Hospital X / consultór
 ## 6. Por que o [Escritório]
 
 - **Especialização em saúde:** conhecemos Fator R, plantões, múltiplas fontes pagadoras, convênios e as particularidades de clínicas.
-- **Atendimento rápido pelo WhatsApp**, sem precisar marcar horário nem sair do consultório.
-- **Tudo pelo celular:** contrato, documentos e relatórios.
+- **Atendimento próximo:** relacionamento pelo WhatsApp e aplicativo Controlare (planos Gestão e Premium).
+- **Tudo online:** documentos por foto e assinatura digital pelo gov.br.
 - [Diferencial do escritório]
 
 > "[Depoimento curto de cliente da saúde]" — Dr(a). [Nome], [especialidade]

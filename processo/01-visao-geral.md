@@ -18,8 +18,8 @@ Com tíquetes entre R$ 297 e R$ 797, o processo precisa ser **enxuto**: poucas e
 
 | Caminho | Para quem | Como funciona |
 |---------|-----------|---------------|
-| **Rápido** (1 reunião) | Profissional de saúde individual ou com 1 sócio — pacotes **Essencial (R$ 297)** e **Gestão (R$ 497)** | Qualificação pelo WhatsApp → reunião de 30 min com diagnóstico **e** apresentação da proposta → fechamento na hora ou em até 3 dias |
-| **Consultivo** (2 reuniões) | Clínicas, consultórios com funcionários, sociedades — pacote **Premium (R$ 797)** ou acima | Qualificação → diagnóstico de 45 min (com análise de documentos) → apresentação da proposta em reunião separada |
+| **Rápido** (1 reunião) | Profissional de saúde sem funcionários — pacotes **Essencial (R$ 297)** e **Gestão (R$ 497)** | Qualificação pelo WhatsApp → reunião de 30 min com diagnóstico **e** apresentação da proposta → fechamento na hora ou em até 3 dias |
+| **Consultivo** (2 reuniões) | Clínicas, consultórios com funcionários, sociedades, quem quer planejamento tributário — pacote **Premium (R$ 797)** ou acima | Qualificação → diagnóstico de 45 min (com análise de documentos) → apresentação da proposta em reunião separada |
 
 ## Etapas, responsáveis e critérios de passagem
 

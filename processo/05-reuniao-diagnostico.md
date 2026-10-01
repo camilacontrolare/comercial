@@ -50,7 +50,7 @@ Entregue **um insight** na própria reunião. Exemplos:
 
 ### 5. Proposta (5 min)
 - Recapitule: "Você me disse que [dor 1] e [dor 2]."
-- Apresente o **pacote recomendado** primeiro (geralmente o **Gestão – R$ 497**), depois os outros dois.
+- Apresente o **pacote recomendado** primeiro: **Gestão (R$ 497)** para quem não tem funcionários; **Premium (R$ 797)** para quem tem funcionários ou quer planejamento tributário.
 - Pergunte: **"Qual desses faz mais sentido para você?"** — e fique em silêncio.
 
 ### 6. Próximo passo (2 min)

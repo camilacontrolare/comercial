@@ -4,40 +4,54 @@
 
 1. **Três pacotes com preço fixo.** O cliente escolhe *qual* pacote, não *se* contrata.
 2. **Escopo explícito.** O que está incluso, o que é cobrado à parte e os limites de cada pacote.
-3. **Apresente o pacote do meio primeiro** (Gestão). Ele é a recomendação padrão para a maioria dos profissionais de saúde.
+3. **Apresente o pacote do meio primeiro** (Gestão) para profissionais sem funcionários, e o **Premium** para quem tem funcionários.
 4. **Reajuste anual previsto em contrato** (índice definido, ex.: IPCA).
 5. **Evitar aviltamento de honorários** — o Código de Ética do contador veda honorários incompatíveis com o trabalho.
 
 ## Pacotes
 
-> ⚠️ Os **preços** são os atuais do escritório. O **conteúdo e os limites** de cada pacote são uma sugestão — `[CONFIRMAR]` com a equipe antes de usar.
+Serviços conforme os planos já praticados pela Controlare, com os nomes Essencial, Gestão e Premium.
 
-| | **Essencial** | **Gestão** ⭐ recomendado | **Premium** |
+> ⚠️ **Preços:** mantidos em R$ 297 / R$ 497 / R$ 797, conforme informado. A proposta antiga usava R$ 249,90 (Smart), R$ 449,90 (Basic) e R$ 679,00 (Premium). `[CONFIRMAR]` qual tabela vale.
+
+| Soluções | **Essencial** | **Gestão** ⭐ recomendado | **Premium** |
 |---|:-:|:-:|:-:|
 | **Honorário mensal** | **R$ 297** | **R$ 497** | **R$ 797** |
-| Para quem | Profissional PJ individual, sem funcionários (ex.: plantonista) | Profissional com consultório, até 2 funcionários | Clínica / sociedade, até 8 funcionários |
-| Contabilidade e balanço anual | ✅ | ✅ | ✅ |
-| Apuração de impostos e obrigações acessórias | ✅ | ✅ | ✅ |
-| Emissão de notas fiscais (suporte) | Até 15 NF/mês | Até 40 NF/mês | Até 100 NF/mês |
-| Pró-labore | 1 sócio | Até 2 sócios | Até 4 sócios |
-| Funcionários (folha e eSocial) | — | Até 2 | Até 8 |
-| **Monitoramento mensal do Fator R** | ✅ | ✅ | ✅ |
-| Atendimento pelo WhatsApp | Até 24h úteis | Até 4h úteis | Prioritário + contador dedicado |
-| Relatório mensal simplificado (quanto faturou, quanto pagou de imposto, quanto pode retirar) | — | ✅ | ✅ |
-| Planejamento tributário anual | — | ✅ | ✅ |
-| Reunião de acompanhamento | — | Semestral | Trimestral |
-| IRPF dos sócios | À parte | À parte | 1 sócio incluso |
-| Análise de equiparação hospitalar / regime | — | — | ✅ |
+| Gestão contábil completa | ✅ | ✅ | ✅ |
+| Emissão de notas fiscais | — | ✅ | ✅ |
+| Relacionamento pelo WhatsApp | — | ✅ | ✅ |
+| Controle de alvarás e certificado digital | — | ✅ | ✅ |
+| Acesso ao aplicativo Controlare | — | ✅ | ✅ |
+| Planejamento tributário | — | — | ✅ |
+| Gestão de folha de pagamento de funcionários | — | — | ✅ |
+| Relatórios de gestão trimestrais | — | — | ✅ |
+
+### Para quem é cada plano
+
+| Plano | Perfil indicado |
+|-------|-----------------|
+| **Essencial** | Profissional PJ que emite as próprias notas e só precisa da contabilidade em dia |
+| **Gestão** | Profissional PJ (plantonista ou consultório sem funcionários) que quer comodidade: notas emitidas pelo escritório, WhatsApp, aplicativo e alvarás/certificado sob controle |
+| **Premium** | Quem tem **funcionários** (secretária, equipe de clínica), quer **planejamento tributário** ou relatórios de gestão: consultórios com equipe, clínicas e sociedades |
+
+> Como a **folha de pagamento** só está no Premium, todo cliente com funcionário vai para o Premium.
 
 ### Adicionais (acima dos limites)
 
 Valores na [tabela de precificação](../modelos/tabela-precificacao.csv) `[AJUSTAR]`:
-- Funcionário adicional, sócio adicional, faixa extra de notas fiscais.
-- Clínicas acima do Premium (mais de 8 funcionários, Lucro Presumido com muitos sócios, filiais) → **proposta personalizada** a partir do Premium.
+- Funcionários acima do volume que o escritório considera padrão no Premium, filiais, volume alto de notas.
+- Clínicas grandes (muitos funcionários, Lucro Presumido com vários sócios, filiais) → **proposta personalizada** a partir do Premium.
 
 ### Serviços avulsos
 
 Abertura de empresa, alteração contratual (entrada/saída de sócio), encerramento, IRPF, regularização de períodos anteriores, parcelamentos.
+
+### Abertura de empresa médica (Juiz de Fora/MG)
+
+- Taxa estadual: **R$ 297,00** · Taxa municipal: **isenta** (taxas dos órgãos, pagas pelo cliente).
+- Processo em 5 etapas: envio dos documentos → cadastramento → consulta do nome e envio das taxas → pagamento da taxa estadual → assinatura digital pelo gov.br.
+- **CNPJ em cerca de 48 horas** após documentos e pagamento; empresa apta a funcionar após a liberação da inscrição municipal.
+- Documentos: RG, CNH, comprovante de residência, IPTU (pode estar no nome de parentes ou do proprietário, se alugado) e certidão de casamento, se for o caso. Podem ser enviados por foto pelo WhatsApp.
 
 **Sugestão para o tráfego pago:** oferecer **abertura de empresa com desconto ou isenção** para quem contratar o pacote mensal com fidelidade de 12 meses `[DECIDIR]` — é uma oferta forte para o plantonista recém-formado.
 
@@ -49,7 +63,7 @@ Horas por cliente/mês     = estimativa da equipe (fiscal + contábil + DP + ate
 Preço mínimo              = horas por cliente × custo-hora × (1 + margem desejada)
 ```
 
-Atenção especial ao **Essencial (R$ 297)**: é o pacote com maior risco de prejuízo. Se um cliente Essencial começa a consumir muito atendimento ou ultrapassa os limites, ofereça o upgrade para o Gestão.
+Atenção especial ao **Essencial (R$ 297)**: ele não inclui WhatsApp nem emissão de notas. Se o cliente começar a pedir esses serviços, ofereça o upgrade para o Gestão.
 
 ## Estrutura da proposta
 
@@ -69,7 +83,7 @@ Como os pacotes já são enxutos, **prefira não dar desconto na mensalidade**. 
 
 | Alternativa | Quando usar | Aprovação |
 |-------------|-------------|-----------|
-| Descer de pacote (Gestão → Essencial) | Cliente sensível a preço | Camila |
+| Descer de pacote (Gestão → Essencial) | Cliente sensível a preço que emite as próprias notas | Camila |
 | Isenção/desconto na abertura de empresa | Fechamento na hora ou com fidelidade de 12 meses | Camila |
 | 1ª mensalidade com 50% de desconto | Cliente indicado por outro cliente | Camila |
 | Desconto de até 10% no pagamento anual antecipado | Cliente que pede desconto na mensalidade | Camila |
