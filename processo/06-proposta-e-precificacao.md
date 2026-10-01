@@ -12,7 +12,7 @@
 
 Serviços conforme os planos já praticados pela Controlare, com os nomes Essencial, Gestão e Premium.
 
-> ⚠️ **Preços:** mantidos em R$ 297 / R$ 497 / R$ 797, conforme informado. A proposta antiga usava R$ 249,90 (Smart), R$ 449,90 (Basic) e R$ 679,00 (Premium). `[CONFIRMAR]` qual tabela vale.
+> **Preços vigentes:** Essencial R$ 297,00 · Gestão R$ 497,00 · Premium R$ 797,00. Os valores antigos (Smart R$ 249,90, Basic R$ 449,90 e Premium R$ 679,00) não valem mais.
 
 | Soluções | **Essencial** | **Gestão** ⭐ recomendado | **Premium** |
 |---|:-:|:-:|:-:|
