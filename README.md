@@ -1,6 +1,17 @@
 # comercial
 
-Processo comercial de vendas do escritório de contabilidade — do primeiro contato com o lead até a indicação de novos clientes.
+Processo comercial do escritório de contabilidade, especializado em **profissionais da saúde** (médicos, dentistas, psicólogos, fisioterapeutas, nutricionistas e clínicas).
+
+- **Equipe:** 3 pessoas — vendas conduzidas pela **Camila**
+- **Principal canal de aquisição:** tráfego pago (Meta Ads e Google Ads)
+- **Planos:** Essencial **R$ 297** · Gestão **R$ 497** · Premium **R$ 797**
+
+## Comece por aqui (antes de ligar as campanhas)
+
+1. Leia [11. Atendimento de leads de tráfego pago](processo/11-leads-trafego-pago.md) e complete o checklist.
+2. Confirme o conteúdo e os limites dos planos em [6. Proposta e precificação](processo/06-proposta-e-precificacao.md).
+3. Cadastre as [mensagens prontas](modelos/mensagens.md) como respostas rápidas no WhatsApp Business.
+4. Prepare a [planilha de pipeline](modelos/pipeline-crm.csv) e combine o relatório semanal com o gestor de tráfego.
 
 ## Como usar este repositório
 
@@ -23,6 +34,7 @@ Processo comercial de vendas do escritório de contabilidade — do primeiro con
 | 8 | [Fechamento e onboarding](processo/08-fechamento-e-onboarding.md) | Contrato, troca de contador e primeiros 90 dias |
 | 9 | [Pós-venda, retenção e indicação](processo/09-pos-venda-e-indicacao.md) | Manter, expandir e gerar indicações |
 | 10 | [Métricas e rotina comercial](processo/10-metricas-e-rotina.md) | KPIs, metas e ritual semanal |
+| 11 | [Atendimento de leads de tráfego pago](processo/11-leads-trafego-pago.md) | Resposta em 5 min, cadência de 3 dias, feedback ao gestor de tráfego |
 
 ## Modelos prontos
 
@@ -31,4 +43,4 @@ Processo comercial de vendas do escritório de contabilidade — do primeiro con
 - [Modelo de proposta comercial](modelos/proposta-comercial.md)
 - [Checklist de onboarding do novo cliente](modelos/checklist-onboarding.md)
 - [Planilha de pipeline (CRM simples)](modelos/pipeline-crm.csv) — abre no Excel / Google Planilhas
-- [Tabela de precificação](modelos/tabela-precificacao.csv) — valores de referência a ajustar
+- [Tabela de precificação](modelos/tabela-precificacao.csv) — planos e adicionais

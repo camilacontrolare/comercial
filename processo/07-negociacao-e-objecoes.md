@@ -31,10 +31,27 @@ Sempre saia com uma data: "Posso te ligar na quinta às 10h para fecharmos?"
 ### "Contabilidade on-line é mais barata"
 > "Verdade, para quem só precisa das guias pode ser uma boa opção. Você me disse que precisa de [atendimento próximo / planejamento / folha complexa]. Nesses casos, o modelo on-line costuma cobrar à parte ou não atender. Quer que eu mostre a comparação lado a lado?"
 
+## Objeções específicas do segmento de saúde
+
+### "Meu colega médico paga R$ 150 de contabilidade"
+> "Faz sentido comparar. Vale perguntar a ele se o contador acompanha o Fator R todo mês e ajusta o pró-labore — é aí que está a maior diferença de imposto para quem é da saúde. Se ele estiver no Anexo V quando poderia estar no III, a contabilidade barata sai cara. No nosso Essencial, esse acompanhamento já está incluso."
+
+### "A clínica/hospital onde trabalho já indicou um contador"
+> "Ótimo que eles se preocuparam com isso. Só lembre que o contador da clínica cuida dos interesses **da clínica**. Nós cuidamos dos **seus**: quanto você paga de imposto, quanto pode retirar e como organizar suas várias fontes de renda."
+
+### "Não sei se compensa abrir PJ"
+> "Essa é exatamente a pergunta certa. Com os seus números, a gente faz a simulação PF x PJ na própria reunião. Se não compensar, eu te digo — e você não gasta nada com isso."
+
+### "Não tenho tempo para trocar de contador / para reunião"
+> "Entendo, a rotina de quem é da saúde é puxada. Por isso a reunião é de 30 minutos, por vídeo, no horário que for melhor — inclusive almoço ou fim do dia. E a transição fica por nossa conta: você só assina o contrato pelo celular."
+
+### "Vou esperar o fim do ano / o próximo IRPF"
+> "Quanto antes organizarmos, mais meses você aproveita com a tributação certa. Cada mês na PF ou no anexo errado é imposto pago a mais que não volta. E a opção pelo Simples para empresas já existentes é feita em janeiro — se deixarmos para depois, perdemos a janela do ano."
+
 ### "Agora não é o momento"
 > "Entendo. Quando seria o momento certo? [ouvir] Existe algum prazo que me preocupa para você: [ex.: fim do ano / opção pelo Simples em janeiro / DEFIS / limite do MEI]. Se deixarmos para depois, [consequência]. Podemos ao menos deixar tudo preparado?"
 
-> **Nota:** a opção pelo Simples Nacional para empresas já existentes ocorre em **janeiro**. Leads de outubro a dezembro têm um gatilho natural de urgência para planejamento tributário.
+> **Nota:** a opção pelo Simples Nacional para empresas já existentes ocorre em **janeiro**. Leads de outubro a dezembro têm um gatilho natural de urgência para planejamento tributário — vale uma campanha específica de tráfego pago nesse período.
 
 ## Registro
 

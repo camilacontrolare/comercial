@@ -1,59 +1,75 @@
-# 5. Reunião de diagnóstico
+# 5. Reunião de diagnóstico (e proposta)
 
-A reunião de diagnóstico é o coração do processo. É aqui que o cliente percebe que o escritório **entende o negócio dele** — e deixa de comparar apenas preço.
+A reunião é onde o profissional de saúde percebe que o escritório **entende a rotina dele** — e para de comparar só preço.
 
-- **Duração:** 30 a 45 minutos
-- **Formato:** vídeo (Meet/Zoom/Teams) ou presencial
-- **Participantes:** decisor(es) do cliente + comercial (+ contador responsável em casos técnicos)
+| | Caminho rápido | Caminho consultivo |
+|---|---|---|
+| **Para quem** | Profissional individual / 1 sócio (Essencial e Gestão) | Clínicas, sociedades, funcionários (Premium ou acima) |
+| **Duração** | 30 min | 45 min + reunião de proposta (20 min) |
+| **Proposta** | Apresentada **na mesma reunião** | Apresentada em até 2 dias úteis |
+| **Quem participa** | Camila | Camila + contador(a) |
 
-## Antes da reunião (preparação de 15 minutos)
+Formato padrão: **videochamada** (profissionais de saúde têm agenda apertada — ofereça horários de almoço e fim de tarde).
 
-- [ ] Consultar o CNPJ: atividade (CNAE), data de abertura, sócios, regime, situação cadastral.
-- [ ] Verificar se o CNAE tem Fator R / anexo do Simples relevante.
-- [ ] Olhar site e redes sociais da empresa.
-- [ ] Revisar as anotações da qualificação.
-- [ ] Enviar lembrete 1 dia antes e 1 hora antes (modelo em [mensagens](../modelos/mensagens.md)).
+## Antes da reunião (10 minutos)
 
-## Roteiro
+- [ ] Consultar o CNPJ (se houver): CNAE, abertura, sócios, regime, situação cadastral.
+- [ ] Verificar se o CNAE está sujeito ao **Fator R**.
+- [ ] Olhar o Instagram/site do profissional ou da clínica.
+- [ ] Revisar respostas do formulário e da qualificação.
+- [ ] Deixar aberta a [tabela de precificação](../modelos/tabela-precificacao.csv) e a [proposta](../modelos/proposta-comercial.md).
+- [ ] Lembrete 1 dia antes e 1 hora antes (modelos em [mensagens](../modelos/mensagens.md)).
 
-### 1. Abertura (3 min)
-> "Obrigado(a) pelo tempo. A ideia de hoje é eu entender bem a sua empresa e o seu momento. Se ao final fizer sentido, apresento uma proposta; se não fizer, te digo com sinceridade. Combinado?"
+## Roteiro (caminho rápido — 30 min)
 
-### 2. Contexto do negócio (10 min)
-- Me conta a história da empresa. O que vocês vendem e para quem?
-- Como está o faturamento nos últimos 12 meses? Qual a expectativa para o próximo ano?
-- Quantas pessoas trabalham com vocês? CLT, PJ, estagiários?
-- Como vocês emitem nota fiscal? Usam algum sistema de gestão / financeiro?
-- Quantas notas emitidas e recebidas por mês, aproximadamente?
-- Quantas contas bancárias / cartões / maquininhas?
+### 1. Abertura (2 min)
+> "Obrigada pelo tempo, Dr(a). [Nome]. A ideia é eu entender como você trabalha hoje e te mostrar como podemos ajudar. No final já te apresento os valores, e se fizer sentido seguimos. Combinado?"
 
-### 3. Situação contábil atual (10 min)
-- Como é a relação com o contador atual? O que funciona bem? O que incomoda?
-- Vocês recebem algum relatório além das guias? Sabem quanto a empresa lucra por mês?
-- Já tiveram multas, notificações ou problemas com a Receita/Prefeitura/eSocial?
-- Como é feita a retirada dos sócios (pró-labore x distribuição de lucros)?
-- Há algum parcelamento ou débito em aberto?
+### 2. Como trabalha hoje (8 min)
+- Qual a sua especialidade? Há quanto tempo atua?
+- Onde você atende: plantões, clínicas de terceiros, consultório próprio, convênios, particular?
+- Recebe como pessoa física ou PJ? De quantas fontes pagadoras?
+- Quanto recebe por mês, em média? Tem variação grande?
+- Tem secretária ou outros funcionários? Sócios?
+- Emite nota fiscal? Quantas por mês, aproximadamente?
 
-### 4. Dores e objetivos (10 min)
-- Se pudéssemos resolver **uma** coisa nos próximos 6 meses, qual seria?
-- Quanto isso custa hoje para vocês (em dinheiro, tempo ou preocupação)?
-- O que precisaria acontecer para você considerar a troca de contador um sucesso?
+### 3. Situação atual (8 min)
+- **Se PF:** quanto pagou de imposto no último IRPF / carnê-leão?
+- **Se PJ:** qual o regime? Quanto paga de imposto por mês? Tem pró-labore definido? Sabe se está no Anexo III ou V?
+- Como é o atendimento do contador atual? O que te incomoda?
+- Já teve multa, notificação ou problema com a Receita/Prefeitura?
+- Separa as contas PF e PJ?
 
-### 5. Primeiro valor (5 min)
-Sempre entregue **um insight** na própria reunião, por exemplo:
-- "Pelo seu CNAE e folha, talvez você esteja no Anexo V quando poderia estar no Anexo III pelo Fator R — vale simular."
-- "Com esse faturamento, compensa comparar Simples x Presumido."
-- "Dá para organizar a retirada de lucros de forma mais eficiente."
+### 4. Primeiro valor (5 min)
+Entregue **um insight** na própria reunião. Exemplos:
+- "Com esses recebimentos na PF, vale simular a abertura de PJ — a diferença costuma ser relevante."
+- "Pelo seu CNAE, se o pró-labore for ajustado para o Fator R, você pode ir para o Anexo III. Precisamos simular com os números reais."
+- "Como clínica, vale verificar se vocês atendem os requisitos da equiparação hospitalar."
 
-> Não prometa economia exata antes de analisar os documentos. Fale em **possibilidades a verificar**.
+> Fale em **possibilidades a verificar**, nunca em economia garantida.
 
-### 6. Fechamento da reunião (2 min)
-> "Com o que você me contou, consigo montar uma proposta para [resumo das necessidades]. Podemos marcar [dia/hora] para eu te apresentar? Leva 20 minutos."
+### 5. Proposta (5 min)
+- Recapitule: "Você me disse que [dor 1] e [dor 2]."
+- Apresente o **pacote recomendado** primeiro (geralmente o **Gestão – R$ 497**), depois os outros dois.
+- Pergunte: **"Qual desses faz mais sentido para você?"** — e fique em silêncio.
 
-**Nunca termine a reunião sem a próxima data marcada.**
+### 6. Próximo passo (2 min)
+- **Sim:** "Ótimo! Te envio o contrato agora pelo WhatsApp para assinar pelo celular."
+- **Vou pensar:** ver [objeções](07-negociacao-e-objecoes.md) e **sair com data** para o retorno.
+
+## Caminho consultivo (clínicas)
+
+Na reunião de 45 min, aprofunde também:
+- Número de sócios, forma de divisão de lucros e pró-labore.
+- Funcionários (CLT, PJ, estagiários), escalas, adicionais.
+- Faturamento por convênios x particular; glosas; prazos de recebimento.
+- Licenças: alvará sanitário, registro da clínica no conselho, responsável técnico.
+- Solicite documentos para análise: últimos 3 DAS/guias, última folha, último balancete.
+
+Feche a reunião com a **data da apresentação da proposta**.
 
 ## Depois da reunião
 
-- [ ] Registrar no pipeline: dores, escopo, decisores, data da apresentação.
-- [ ] Solicitar documentos para análise, se necessário (últimos 3 DAS/guias, última folha, balancete).
-- [ ] Montar a proposta com a [tabela de precificação](../modelos/tabela-precificacao.csv).
+- [ ] Atualizar o pipeline: dores, pacote proposto, valor, próxima ação com data.
+- [ ] Enviar a proposta em PDF pelo WhatsApp (resumo do que foi apresentado).
+- [ ] Agendar o follow-up no calendário.

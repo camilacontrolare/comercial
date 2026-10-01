@@ -8,9 +8,11 @@ Conquistar um cliente custa muito mais do que manter. E cliente satisfeito é o 
 | Frequência | Ação | Pacote |
 |------------|------|--------|
 | Mensal | Envio de guias + resumo em linguagem simples ("este mês você pagou X de impostos porque...") | Todos |
-| Mensal | Relatório gerencial / DRE simplificada | Gestão, Estratégico |
-| Trimestral | Reunião de resultados | Gestão |
-| Anual | Planejamento tributário para o ano seguinte (out–dez) | Gestão, Estratégico |
+| Mensal | Conferência do Fator R e ajuste de pró-labore | Todos |
+| Mensal | Relatório simplificado (faturou, pagou de imposto, pode retirar) | Gestão, Premium |
+| Semestral | Reunião de acompanhamento | Gestão |
+| Trimestral | Reunião de acompanhamento | Premium |
+| Anual | Planejamento tributário para o ano seguinte (out–dez) | Gestão, Premium |
 | Anual | Pesquisa NPS | Todos |
 
 ### Sinais de risco de cancelamento
@@ -33,12 +35,17 @@ Momentos naturais para oferecer novos serviços:
 | Cliente sem controle financeiro | BPO financeiro |
 | Novo sócio, nova filial, nova atividade | Alteração contratual / societário |
 | Fim de ano | Planejamento tributário e de distribuição de lucros |
+| Plantonista abriu consultório | Upgrade Essencial → Gestão |
+| Consultório virou clínica com sócios | Upgrade Gestão → Premium |
+| Clínica pode atender os requisitos de equiparação hospitalar | Análise de regime (Lucro Presumido) |
 
 ## Programa de indicação `[AJUSTAR]`
 
+Profissionais de saúde trabalham em grupo (plantões, clínicas, residência, consultórios compartilhados) — **um cliente satisfeito conhece dezenas de potenciais clientes**. Indicação deve se tornar o segundo maior canal, ajudando a reduzir a dependência do tráfego pago.
+
 1. **Quando pedir:** depois de uma entrega de valor (economia identificada, problema resolvido, NPS 9–10).
 2. **Como pedir:**
-   > "Fico muito feliz que [resultado]. Você conhece outro empresário que esteja passando pelo que você passava antes de vir para cá? Posso conversar com ele sem compromisso."
+   > "Fico muito feliz que [resultado]. Você conhece algum colega (do plantão, da clínica, da residência) que esteja passando pelo que você passava antes de vir para cá? Posso conversar com ele(a) sem compromisso."
 3. **Recompensa sugerida:** desconto de [X]% ou 1 mensalidade com desconto para quem indica, quando o indicado fechar. Agradeça **sempre**, mesmo que o indicado não feche.
 4. **Registro:** campo *Origem = Indicação – [nome do cliente]* no pipeline.
 

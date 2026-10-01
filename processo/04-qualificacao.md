@@ -1,35 +1,48 @@
 # 4. Qualificação
 
-Objetivo: em **até 10 minutos**, decidir se vale a pena investir uma reunião de diagnóstico neste lead.
+Objetivo: em **até 10 minutos** (ou poucas mensagens de WhatsApp), decidir se vale uma reunião com este lead — e marcar a reunião.
 
-Roteiro completo para ligação: [modelos/roteiro-qualificacao.md](../modelos/roteiro-qualificacao.md).
+Roteiro completo: [modelos/roteiro-qualificacao.md](../modelos/roteiro-qualificacao.md).
+
+> Leads de tráfego pago chegam com as respostas do formulário (profissão, CNPJ, faturamento). **Não repita essas perguntas** — confirme e aprofunde.
 
 ## Critérios (modelo "N.E.P.R.A.")
 
 | Letra | Critério | Pergunta-chave | Qualificado se... |
 |-------|----------|----------------|-------------------|
-| **N** | **Necessidade** | "O que fez você buscar um contador agora?" | Existe uma dor ou gatilho concreto |
-| **E** | **Encaixe (ICP)** | Regime, faturamento, nº de funcionários, segmento | Está no perfil ideal ou aceitável |
+| **N** | **Necessidade** | "O que fez você buscar um contador agora?" | Existe um gatilho concreto (abrir PJ, vaga exige CNPJ, imposto alto, insatisfação) |
+| **E** | **Encaixe (ICP)** | Profissão, PF/PJ, faturamento, funcionários | Profissional de saúde no perfil ideal ou aceitável |
 | **P** | **Prazo** | "Para quando você precisa resolver isso?" | Até 60 dias |
-| **R** | **Responsável pela decisão** | "Além de você, mais alguém participa da decisão?" | Decisor(es) identificado(s) e disponível(is) para a reunião |
-| **A** | **Aceita investir** | "Hoje quanto vocês investem em contabilidade?" | Expectativa compatível com a faixa de honorários |
+| **R** | **Responsável pela decisão** | "Você decide sozinho(a) ou tem sócio(s)?" | Decisor(es) disponível(is) para a reunião |
+| **A** | **Aceita investir** | "Hoje quanto você paga de contabilidade?" | Expectativa compatível com R$ 297 a R$ 797 |
 
 ### Pontuação
 
-- **5 critérios OK** → agendar diagnóstico imediatamente.
-- **3–4 OK** → agendar diagnóstico, mas registrar os pontos de atenção.
-- **0–2 OK** → nutrir (conteúdo, newsletter) ou desqualificar com cordialidade.
+- **5 critérios OK** → reunião o quanto antes (idealmente em até 24h).
+- **3–4 OK** → agendar reunião e registrar os pontos de atenção.
+- **0–2 OK** → lista de nutrição (conteúdo) ou desqualificar com cordialidade.
+
+## Qualificação pelo WhatsApp (sequência curta)
+
+Para leads que preferem mensagem a ligação, use no máximo 3 perguntas:
+
+1. "Hoje você atende como pessoa física ou já tem CNPJ?"
+2. "Você atua em plantões/clínicas de terceiros, tem consultório próprio ou os dois?"
+3. "O que mais te incomoda hoje: o valor dos impostos, o atendimento do contador atual ou a burocracia para começar?"
+
+Em seguida, ofereça dois horários de reunião.
 
 ## Informações mínimas a coletar
 
-- [ ] Nome, telefone, e-mail, CNPJ (se já existir)
-- [ ] Atividade principal e cidade
-- [ ] Regime tributário atual
-- [ ] Faturamento médio mensal (faixa)
-- [ ] Número de funcionários e pró-labores
-- [ ] Quem é o contador atual e por que quer trocar (se for o caso)
-- [ ] Origem do lead (indicação de quem? anúncio? Instagram?)
+- [ ] Nome, WhatsApp, e-mail
+- [ ] Profissão e especialidade
+- [ ] PF ou PJ (CNPJ, se já existir)
+- [ ] Faixa de faturamento/recebimento mensal
+- [ ] Onde atua (plantões, clínicas, consultório próprio, convênios)
+- [ ] Funcionários e sócios
+- [ ] Contador atual e motivo da troca (se houver)
+- [ ] **Origem e campanha do anúncio**
 
 ## Como desqualificar sem queimar a ponte
 
-> "Pelo que você me contou, acho que hoje não somos a melhor opção para o seu momento, porque [motivo]. Posso te indicar [alternativa / parceiro] e, quando [gatilho], conversamos de novo — combinado?"
+> "Pelo que você me contou, hoje a abertura de CNPJ ainda não compensa para você, porque [motivo — ex.: o valor recebido ainda é baixo]. Vou te mandar um material sobre isso e, quando seus recebimentos passarem de [valor], conversamos de novo para simular — combinado?"

@@ -1,16 +1,18 @@
 # 3. Geração de leads e prospecção
 
-## Canais de entrada
+## Canais de entrada (segmento de saúde)
+
+O canal principal no início será o **tráfego pago** — o atendimento desses leads está detalhado em [11-leads-trafego-pago.md](11-leads-trafego-pago.md). Os demais canais complementam e costumam ter custo por cliente menor.
 
 | Canal | Tipo | Custo | Qualidade típica | Ações recomendadas |
 |-------|------|-------|------------------|--------------------|
-| **Indicação de clientes** | Inbound | Baixo | ⭐⭐⭐⭐⭐ | Programa de indicação estruturado (ver [pós-venda](09-pos-venda-e-indicacao.md)) |
-| **Parceiros** (advogados, bancos, corretores, consultores, fornecedores de sistema) | Inbound | Baixo | ⭐⭐⭐⭐ | 2 cafés com parceiros por mês; troca de indicações |
-| **Google (perfil da empresa + site)** | Inbound | Baixo/Médio | ⭐⭐⭐⭐ | Perfil no Google atualizado, pedir avaliações a todo cliente satisfeito |
-| **Conteúdo (Instagram, LinkedIn, YouTube)** | Inbound | Tempo | ⭐⭐⭐ | 3 posts/semana respondendo dúvidas reais dos clientes |
-| **Anúncios (Google Ads / Meta Ads)** | Inbound | Médio/Alto | ⭐⭐⭐ | Começar com "abrir empresa [cidade]" e "contador para [nicho]" |
-| **Prospecção ativa** (LinkedIn, lista de CNPJs novos, eventos) | Outbound | Tempo | ⭐⭐ | Cadência estruturada (abaixo) |
-| **Portais/Marketplaces de contadores** | Inbound | Médio | ⭐⭐ | Avaliar custo por cliente fechado |
+| **Tráfego pago** (Meta Ads e Google Ads) | Inbound | Médio/Alto | ⭐⭐⭐ | Processo de atendimento em até 5 min e feedback semanal ao gestor de tráfego |
+| **Indicação de clientes** | Inbound | Baixo | ⭐⭐⭐⭐⭐ | Profissionais de saúde convivem em plantões e clínicas — pedir indicação é natural (ver [pós-venda](09-pos-venda-e-indicacao.md)) |
+| **Parceiros do nicho** | Inbound | Baixo | ⭐⭐⭐⭐ | Clínicas que contratam PJ, coordenadores de plantão, cooperativas, gerentes de banco do segmento saúde, corretores de seguros, advogados de direito médico |
+| **Google (perfil da empresa + site)** | Inbound | Baixo | ⭐⭐⭐⭐ | Perfil no Google com a palavra "saúde/médicos", pedir avaliações a todo cliente satisfeito |
+| **Conteúdo (Instagram)** | Inbound | Tempo | ⭐⭐⭐ | Reforça os anúncios: quem clica no anúncio visita o perfil. Temas: PF x PJ, Fator R, pró-labore, IRPF do médico |
+| **Residências, faculdades e associações** | Outbound | Tempo | ⭐⭐⭐ | Palestra "Finanças e impostos para o recém-formado" — gera leads em volume |
+| **Prospecção ativa** (LinkedIn, clínicas recém-abertas) | Outbound | Tempo | ⭐⭐ | Cadência estruturada (abaixo) — só se sobrar agenda da Camila |
 
 > **Atenção ético-normativa:** a publicidade do profissional contábil deve seguir o Código de Ética Profissional do Contador (NBC PG 01) — sem promessas de resultado, sem depreciar colegas e sem aviltamento de honorários. Revise as peças com essa lente.
 
@@ -18,16 +20,16 @@
 
 A chance de conversão cai drasticamente após a primeira hora. Meta:
 
-- **WhatsApp / formulário em horário comercial:** resposta em até **15 minutos**.
+- **Lead de anúncio em horário comercial:** resposta em até **5 minutos**.
+- **Demais leads em horário comercial:** resposta em até **15 minutos**.
 - **Fora do horário:** mensagem automática + retorno até as 9h30 do dia seguinte.
 
 ## Prospecção ativa (outbound)
 
 ### Listas de prospecção
-1. **Empresas recém-abertas** na sua cidade/nicho (bases públicas da Receita Federal de CNPJ).
-2. **MEIs** de atividades com alta chance de desenquadramento.
-3. **Perfis no LinkedIn** de donos de empresas do seu ICP.
-4. **Participantes de eventos** de associações comerciais, CDL, sindicatos patronais.
+1. **Clínicas e consultórios recém-abertos** na sua cidade (bases públicas de CNPJ, filtrando CNAEs de saúde).
+2. **Perfis no LinkedIn/Instagram** de médicos, dentistas e donos de clínicas.
+3. **Participantes de congressos e eventos** de associações e sociedades médicas/odontológicas.
 
 > Observe a **LGPD**: use dados de fontes legítimas, identifique-se, ofereça opção de não receber mais mensagens e não envie spam em massa.
 

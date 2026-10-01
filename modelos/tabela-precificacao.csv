@@ -1,26 +1,17 @@
-Componente;Item;Unidade;Valor de referência (R$) [AJUSTAR];Observação
-Base;MEI;mensal;;Apenas DASN-SIMEI e orientação - avaliar se compensa atender
-Base;Simples Nacional - Serviços;mensal;;Inclui até 1 pró-labore
-Base;Simples Nacional - Comércio;mensal;;Considerar ICMS/ST
-Base;Lucro Presumido;mensal;;
-Base;Lucro Real;mensal;;Sob consulta - precificar por horas
-Multiplicador faturamento;Até R$ 30 mil/mês;fator;1,0;
-Multiplicador faturamento;R$ 30 a 100 mil/mês;fator;1,2;
-Multiplicador faturamento;R$ 100 a 300 mil/mês;fator;1,5;
-Multiplicador faturamento;Acima de R$ 300 mil/mês;fator;2,0;Ou sob consulta
-Folha;Por funcionário CLT;por pessoa/mês;;
-Folha;Por pró-labore adicional;por pessoa/mês;;
-Volume;Até 50 notas/lançamentos;mensal;0;Incluso na base
-Volume;51 a 200 notas/lançamentos;mensal;;
-Volume;Acima de 200 notas/lançamentos;mensal;;Sob consulta
-Complexidade;Filial adicional;por filial/mês;;
-Complexidade;Contribuinte de ICMS com ST;mensal;;
-Complexidade;Importação/Exportação;mensal;;
-Pacote;Gestão;fator sobre o total;1,4;Relatório gerencial + reunião trimestral + planejamento
-Pacote;Estratégico;fator sobre o total;2,2;Contador dedicado + reunião mensal + BPO
-Avulso;Abertura de empresa;único;;Taxas de órgãos à parte
-Avulso;Alteração contratual;único;;Taxas de órgãos à parte
-Avulso;Encerramento de empresa;único;;
-Avulso;IRPF de sócio;por declaração;;
-Avulso;Regularização de período anterior;por mês regularizado;;
-Avulso;Parcelamento de débitos;único;;
+Componente;Item;Unidade;Valor (R$);Observação
+Plano;Essencial;mensal;297,00;Profissional PJ sem funcionários - 1 pró-labore - até 15 NF/mês
+Plano;Gestão;mensal;497,00;Até 2 funcionários - até 2 pró-labores - até 40 NF/mês - relatório mensal - planejamento anual
+Plano;Premium;mensal;797,00;Até 8 funcionários - até 4 pró-labores - até 100 NF/mês - reunião trimestral - IRPF de 1 sócio
+Plano;Personalizado;mensal;a partir de 797,00;Clínicas acima dos limites do Premium - calcular com os adicionais
+Adicional;Funcionário acima do limite do plano;por pessoa/mês;[AJUSTAR];
+Adicional;Sócio/pró-labore acima do limite do plano;por pessoa/mês;[AJUSTAR];
+Adicional;Faixa extra de até 50 notas fiscais;mensal;[AJUSTAR];
+Adicional;Filial;por filial/mês;[AJUSTAR];
+Adicional;Lucro Presumido com equiparação hospitalar;mensal;[AJUSTAR];Controles adicionais exigidos
+Avulso;Abertura de empresa;único;[AJUSTAR];Taxas de órgãos à parte - avaliar isenção com fidelidade de 12 meses
+Avulso;Alteração contratual (entrada/saída de sócio);único;[AJUSTAR];Taxas de órgãos à parte
+Avulso;Encerramento de empresa;único;[AJUSTAR];
+Avulso;IRPF de sócio;por declaração;[AJUSTAR];Incluso para 1 sócio no Premium
+Avulso;Regularização de período anterior;por mês regularizado;[AJUSTAR];
+Avulso;Parcelamento de débitos;único;[AJUSTAR];
+Avulso;Simulação PF x PJ / planejamento tributário avulso;único;[AJUSTAR];Gratuita na reunião comercial

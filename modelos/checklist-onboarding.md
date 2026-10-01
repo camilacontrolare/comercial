@@ -1,7 +1,7 @@
 # Checklist de onboarding do novo cliente
 
 **Cliente:** ______________________ **CNPJ:** ______________________
-**Contador responsável:** ______________ **Data de início:** ___/___/______
+**Plano:** ☐ Essencial ☐ Gestão ☐ Premium **Contador responsável:** ______________ **Data de início:** ___/___/______
 
 ## Fechamento
 - [ ] Contrato de prestação de serviços assinado
@@ -28,6 +28,16 @@
 - [ ] Contratos de empréstimos/financiamentos/leasing
 - [ ] Relação de bens do ativo imobilizado
 
+## Documentos específicos da saúde
+- [ ] Registro no conselho de classe do profissional (CRM / CRO / CRP / CREFITO / CRN / outro): nº ________
+- [ ] Registro da empresa no conselho (quando exigido)
+- [ ] Responsável técnico definido (clínicas)
+- [ ] Alvará sanitário / licença da vigilância sanitária (clínicas e consultórios)
+- [ ] CNES (quando atende convênios/SUS)
+- [ ] Lista de fontes pagadoras (hospitais, cooperativas, convênios, clínicas), forma de emissão de NF e retenções de cada uma
+- [ ] Verificar ISS: regime do município (alíquota sobre faturamento ou ISS fixo de sociedade uniprofissional)
+- [ ] Contas bancárias PF e PJ separadas
+
 ## Transição com o contador anterior
 - [ ] Cliente comunicou a rescisão ao contador anterior
 - [ ] Solicitação formal de documentação enviada em ___/___/______
@@ -42,6 +52,8 @@
 - [ ] Situação fiscal federal (e-CAC) — pendências: ______________
 - [ ] Certidões negativas: ☐ Federal ☐ Estadual ☐ Municipal ☐ FGTS ☐ Trabalhista
 - [ ] Regime tributário e anexos/Fator R conferidos
+- [ ] Pró-labore definido considerando o Fator R
+- [ ] Clínicas: avaliar requisitos de equiparação hospitalar (Lucro Presumido)
 - [ ] Malhas, intimações ou notificações pendentes
 - [ ] Situação do eSocial e da DCTFWeb
 - [ ] Parcelamentos em dia

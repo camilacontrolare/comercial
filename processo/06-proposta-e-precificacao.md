@@ -2,30 +2,46 @@
 
 ## Princípios
 
-1. **Preço por complexidade, não por "achismo".** Use sempre a mesma tabela para que dois vendedores cheguem ao mesmo valor.
-2. **Escopo explícito.** O que está incluso, o que é cobrado à parte, limites (nº de lançamentos, notas, funcionários).
-3. **Três opções (pacotes).** Facilita a decisão e ancora o valor — o cliente escolhe *qual* plano, não *se* contrata.
-4. **Reajuste anual previsto em contrato** (índice definido, ex.: IPCA ou INPC).
+1. **Três pacotes com preço fixo.** O cliente escolhe *qual* pacote, não *se* contrata.
+2. **Escopo explícito.** O que está incluso, o que é cobrado à parte e os limites de cada pacote.
+3. **Apresente o pacote do meio primeiro** (Gestão). Ele é a recomendação padrão para a maioria dos profissionais de saúde.
+4. **Reajuste anual previsto em contrato** (índice definido, ex.: IPCA).
 5. **Evitar aviltamento de honorários** — o Código de Ética do contador veda honorários incompatíveis com o trabalho.
 
-## Modelo de precificação `[AJUSTAR valores]`
+## Pacotes
 
-Honorário mensal = **Base por regime** + **adicionais de complexidade**
+> ⚠️ Os **preços** são os atuais do escritório. O **conteúdo e os limites** de cada pacote são uma sugestão — `[CONFIRMAR]` com a equipe antes de usar.
 
-A tabela de referência está em [modelos/tabela-precificacao.csv](../modelos/tabela-precificacao.csv). Estrutura:
+| | **Essencial** | **Gestão** ⭐ recomendado | **Premium** |
+|---|:-:|:-:|:-:|
+| **Honorário mensal** | **R$ 297** | **R$ 497** | **R$ 797** |
+| Para quem | Profissional PJ individual, sem funcionários (ex.: plantonista) | Profissional com consultório, até 2 funcionários | Clínica / sociedade, até 8 funcionários |
+| Contabilidade e balanço anual | ✅ | ✅ | ✅ |
+| Apuração de impostos e obrigações acessórias | ✅ | ✅ | ✅ |
+| Emissão de notas fiscais (suporte) | Até 15 NF/mês | Até 40 NF/mês | Até 100 NF/mês |
+| Pró-labore | 1 sócio | Até 2 sócios | Até 4 sócios |
+| Funcionários (folha e eSocial) | — | Até 2 | Até 8 |
+| **Monitoramento mensal do Fator R** | ✅ | ✅ | ✅ |
+| Atendimento pelo WhatsApp | Até 24h úteis | Até 4h úteis | Prioritário + contador dedicado |
+| Relatório mensal simplificado (quanto faturou, quanto pagou de imposto, quanto pode retirar) | — | ✅ | ✅ |
+| Planejamento tributário anual | — | ✅ | ✅ |
+| Reunião de acompanhamento | — | Semestral | Trimestral |
+| IRPF dos sócios | À parte | À parte | 1 sócio incluso |
+| Análise de equiparação hospitalar / regime | — | — | ✅ |
 
-| Componente | Variável |
-|------------|----------|
-| Base por regime | MEI, Simples – Serviços, Simples – Comércio, Lucro Presumido, Lucro Real |
-| Faixa de faturamento | Multiplicador por faixa |
-| Folha de pagamento | Valor por funcionário + valor por pró-labore |
-| Volume de documentos | Adicional por faixa de notas/lançamentos |
-| Atividade com obrigações extras | ICMS/ST, filiais, importação, etc. |
-| Serviços avulsos | Abertura, alteração contratual, IRPF dos sócios, certidões, parcelamentos |
+### Adicionais (acima dos limites)
 
-### Como calcular o custo (para validar a tabela)
+Valores na [tabela de precificação](../modelos/tabela-precificacao.csv) `[AJUSTAR]`:
+- Funcionário adicional, sócio adicional, faixa extra de notas fiscais.
+- Clínicas acima do Premium (mais de 8 funcionários, Lucro Presumido com muitos sócios, filiais) → **proposta personalizada** a partir do Premium.
 
-Pelo menos uma vez por ano, confira se a tabela cobre o custo real:
+### Serviços avulsos
+
+Abertura de empresa, alteração contratual (entrada/saída de sócio), encerramento, IRPF, regularização de períodos anteriores, parcelamentos.
+
+**Sugestão para o tráfego pago:** oferecer **abertura de empresa com desconto ou isenção** para quem contratar o pacote mensal com fidelidade de 12 meses `[DECIDIR]` — é uma oferta forte para o plantonista recém-formado.
+
+## Validação do preço (fazer uma vez por ano)
 
 ```
 Custo-hora do escritório = (custos fixos mensais + salários e encargos) ÷ horas produtivas da equipe no mês
@@ -33,49 +49,28 @@ Horas por cliente/mês     = estimativa da equipe (fiscal + contábil + DP + ate
 Preço mínimo              = horas por cliente × custo-hora × (1 + margem desejada)
 ```
 
-Se o preço da tabela ficar abaixo do preço mínimo para um perfil de cliente, a tabela precisa ser revista.
-
-## Pacotes sugeridos `[AJUSTAR]`
-
-| | **Essencial** | **Gestão** (recomendado) | **Estratégico** |
-|---|---|---|---|
-| Contabilidade e obrigações fiscais | ✅ | ✅ | ✅ |
-| Folha de pagamento e eSocial | ✅ | ✅ | ✅ |
-| Atendimento | E-mail/WhatsApp em até 24h | WhatsApp em até 4h | Contador dedicado |
-| Relatório gerencial mensal (DRE simplificada) | — | ✅ | ✅ |
-| Reunião de resultados | — | Trimestral | Mensal |
-| Planejamento tributário anual | — | ✅ | ✅ |
-| IRPF dos sócios | Cobrado à parte | 1 sócio incluso | Todos os sócios |
-| BPO financeiro (contas a pagar/receber) | — | — | ✅ |
-| **Honorário mensal** | R$ [X] | R$ [X × 1,4] | R$ [X × 2,2] |
+Atenção especial ao **Essencial (R$ 297)**: é o pacote com maior risco de prejuízo. Se um cliente Essencial começa a consumir muito atendimento ou ultrapassa os limites, ofereça o upgrade para o Gestão.
 
 ## Estrutura da proposta
 
 Modelo completo em [modelos/proposta-comercial.md](../modelos/proposta-comercial.md):
 
-1. Capa personalizada (nome e logo do cliente)
-2. **O que entendemos da sua empresa** (resumo do diagnóstico, com as palavras do cliente)
-3. Objetivos que vamos atingir juntos
-4. Escopo dos serviços e pacotes
-5. Investimento e condições
-6. Como funciona a transição (onboarding em 30 dias)
-7. Por que nós (diferenciais + depoimentos)
-8. Próximos passos e validade da proposta (ex.: 10 dias)
-
-## Apresentação da proposta (20 min)
-
-1. Recapitule as dores ("Você me disse que...") — 3 min
-2. Mostre como cada dor é resolvida — 7 min
-3. Apresente os pacotes, começando pelo **recomendado** — 5 min
-4. Pergunte: **"Qual desses faz mais sentido para vocês?"** — e fique em silêncio — 5 min
+1. O que entendemos sobre você (com as palavras do cliente)
+2. O que vamos alcançar juntos
+3. Os três pacotes, com o recomendado em destaque
+4. Condições (vencimento, reajuste, avulsos)
+5. Como funciona a transição em 30 dias
+6. Por que nós (especialização em saúde + depoimentos)
+7. Próximos passos e validade (7 dias)
 
 ## Política de descontos `[AJUSTAR]`
 
-| Situação | Desconto máximo | Aprovação |
-|----------|-----------------|-----------|
-| Pagamento anual antecipado | 10% | Comercial |
-| Indicação de cliente atual | 1º mês com 50% | Comercial |
-| Cliente estratégico / grande conta | Até 15% | Sócio(a) |
-| Qualquer outra | — | Sócio(a), com justificativa |
+Como os pacotes já são enxutos, **prefira não dar desconto na mensalidade**. Use, nesta ordem:
 
-Prefira **ajustar o escopo** a dar desconto: "Para chegar nesse valor, podemos tirar X do pacote."
+| Alternativa | Quando usar | Aprovação |
+|-------------|-------------|-----------|
+| Descer de pacote (Gestão → Essencial) | Cliente sensível a preço | Camila |
+| Isenção/desconto na abertura de empresa | Fechamento na hora ou com fidelidade de 12 meses | Camila |
+| 1ª mensalidade com 50% de desconto | Cliente indicado por outro cliente | Camila |
+| Desconto de até 10% no pagamento anual antecipado | Cliente que pede desconto na mensalidade | Camila |
+| Qualquer outra condição | — | Sócio(a) do escritório |

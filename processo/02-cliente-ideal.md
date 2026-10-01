@@ -1,56 +1,59 @@
-# 2. Cliente ideal (ICP) e personas
+# 2. Cliente ideal (ICP) e personas — segmento de saúde
 
-Saber para quem **não** vender é tão importante quanto saber para quem vender. Cliente fora do perfil consome horas, paga pouco e cancela cedo.
+Saber para quem **não** vender é tão importante quanto saber para quem vender. Com tráfego pago chega muita gente fora do perfil — o ICP é o filtro.
 
 ## Perfil de cliente ideal `[AJUSTAR]`
 
-Preencha com base nos **10 melhores clientes atuais** (os mais rentáveis, que pagam em dia e dão menos retrabalho):
-
 | Critério | Ideal | Aceitável | Evitar |
 |----------|-------|-----------|--------|
-| Regime tributário | Simples Nacional / Lucro Presumido | Lucro Real (se houver estrutura) | — |
-| Faturamento mensal | R$ 30 mil – R$ 500 mil | R$ 10 – 30 mil | — |
-| Funcionários | 1 – 30 | 31 – 80 | Acima da capacidade do DP |
-| Segmento | Serviços, profissionais da saúde, tecnologia, comércio | Indústria leve | Segmentos que o escritório não domina |
-| Organização | Usa sistema de gestão / emite NF corretamente | Disposto a se organizar | Quer "jeitinho", documentos sempre atrasados |
-| Localização | Região do escritório ou 100% digital | — | — |
+| Profissão | Médicos(as), dentistas, psicólogos(as), fisioterapeutas, nutricionistas, fonoaudiólogos(as) | Outros profissionais de saúde com conselho de classe | Fora da saúde (encaminhar ou atender só se houver capacidade) |
+| Forma de atuação | PJ (ou precisa abrir PJ) para plantões, clínicas, convênios ou consultório próprio | Profissional ainda como PF com renda alta | Renda baixa e esporádica (PJ não compensa) |
+| Faturamento mensal | R$ 15 mil – R$ 150 mil | R$ 8 – 15 mil | Abaixo de ~R$ 8 mil (avaliar se a PJ compensa) |
+| Estrutura | 1 a 2 sócios, até 10 funcionários | Clínica com até 20 funcionários | Acima da capacidade de DP da equipe |
+| Regime | Simples Nacional (Fator R) ou Lucro Presumido | — | Lucro Real (avaliar caso a caso) |
+| Localização | Cidade do escritório ou 100% digital | — | Municípios com regras de ISS que o escritório não domina |
 
 ### Sinais de alerta (desqualificação)
 
-- Pede para "dar um jeito" em obrigações ou sonegar.
-- Troca de contador com frequência (3º contador em 2 anos).
-- Decisão baseada **só** em preço, sem interesse em entender o serviço.
-- Pendências fiscais graves que o cliente não quer regularizar.
+- Pede para "dar um jeito" em obrigações ou omitir receitas.
+- Quer só "abrir o CNPJ e ver depois", sem contratar a contabilidade mensal.
+- Decide **só** por preço e compara com contabilidades on-line de R$ 89.
+- Pendências graves que não quer regularizar.
+
+## Assuntos técnicos que vendem no nicho de saúde
+
+Use estes temas nos anúncios, nas reuniões e no conteúdo. **Não prometa economia exata antes de analisar o caso.**
+
+| Tema | Por que importa |
+|------|-----------------|
+| **PF x PJ** | Na pessoa física (carnê-leão) a tributação pode chegar a 27,5%; na PJ costuma ser bem menor, dependendo do caso |
+| **Fator R** | Atividades de saúde no Simples podem sair do Anexo V para o Anexo III quando a folha (incluindo pró-labore) atinge 28% da receita — a diferença de alíquota é grande |
+| **Pró-labore x distribuição de lucros** | Define o INSS, o Fator R e quanto o profissional retira com isenção |
+| **Equiparação hospitalar** (Lucro Presumido) | Clínicas que atendem aos requisitos (sociedade empresária, normas da ANVISA) podem ter base de IRPJ/CSLL reduzida — verificar caso a caso |
+| **ISS de sociedade uniprofissional** | Alguns municípios permitem ISS fixo por profissional — verificar a legislação local |
+| **Reforma tributária (IBS/CBS)** | Serviços de saúde têm redução de alíquota prevista na regulamentação; acompanhar a transição que começa em 2026 |
+| **Plantões e múltiplas fontes** | Médicos que recebem de vários hospitais/cooperativas precisam de controle de notas e retenções |
 
 ## Personas
 
-### 1. Empreendedor iniciante (abertura de empresa)
-- **Quem é:** profissional saindo do CLT, MEI que estourou o limite, autônomo que quer pagar menos imposto.
-- **Dor:** não sabe qual regime escolher, medo de errar, quer pagar menos que no carnê-leão.
-- **Gatilho de compra:** CNPJ exigido por cliente/contratante; desenquadramento do MEI.
-- **Oferta de entrada:** abertura de empresa + planejamento tributário inicial + contabilidade mensal.
+### 1. Médico(a) plantonista / recém-formado(a)
+- **Quem é:** 25–35 anos, faz plantões em hospitais, UPAs ou cooperativas; hospitais exigem PJ.
+- **Dor:** foi obrigado(a) a abrir CNPJ, não entende os impostos, medo de errar; ou paga muito no carnê-leão.
+- **Gatilho:** nova vaga que exige PJ; primeiro IRPF assustador.
+- **Pacote típico:** **Essencial (R$ 297)** + abertura de empresa.
 
-### 2. Dono de pequena empresa insatisfeito com o contador atual
-- **Quem é:** empresa com 2–10 anos, Simples ou Presumido.
-- **Dor:** contador que "só manda guia", demora para responder, erros em folha, surpresas com impostos.
-- **Gatilho de compra:** multa, erro na folha, crescimento da empresa, mudança de faixa do Simples.
-- **Oferta de entrada:** diagnóstico tributário gratuito + migração sem dor de cabeça.
+### 2. Profissional com consultório próprio
+- **Quem é:** dentista, psicólogo(a), fisioterapeuta, nutricionista com consultório, às vezes 1 secretária.
+- **Dor:** contador "que só manda guia", não sabe se está no anexo certo, mistura conta PF e PJ.
+- **Gatilho:** contratou funcionário, faturamento cresceu, recebeu notificação.
+- **Pacote típico:** **Gestão (R$ 497)**.
 
-### 3. Profissional liberal da saúde / tecnologia `[AJUSTAR para o seu nicho]`
-- **Quem é:** médico(a), dentista, psicólogo(a), desenvolvedor(a) que presta serviço como PJ.
-- **Dor:** carga tributária alta na pessoa física, dúvidas sobre Fator R, pró-labore e distribuição de lucros.
-- **Gatilho de compra:** contratação via PJ, início em clínica/empresa, declaração de IR assustadora.
-- **Oferta de entrada:** simulação PF x PJ + abertura + contabilidade especializada no nicho.
+### 3. Sócios de clínica
+- **Quem é:** 2–4 sócios, 3–15 funcionários, convênios e particulares.
+- **Dor:** folha complexa, divisão de lucros entre sócios, dúvidas sobre Lucro Presumido e equiparação hospitalar, falta de relatório gerencial.
+- **Gatilho:** entrada de novo sócio, expansão, insatisfação com erros na folha.
+- **Pacote típico:** **Premium (R$ 797)** ou acima (caminho consultivo).
 
-### 4. Empresa em crescimento
-- **Quem é:** faturamento crescente, próxima do teto do Simples ou com equipe aumentando.
-- **Dor:** precisa de informação gerencial, não só obrigações; transição de regime.
-- **Oferta de entrada:** planejamento tributário + contabilidade consultiva + BPO financeiro.
+## Posicionamento `[AJUSTAR]`
 
-## Posicionamento (proposta de valor) `[AJUSTAR]`
-
-Complete a frase e use-a no site, no Instagram e na abertura das reuniões:
-
-> "Ajudamos **[persona]** a **[resultado desejado]** sem **[principal dor]**, com **[diferencial: atendimento rápido, especialização no nicho, relatórios mensais, contador dedicado]**."
-
-Exemplo: *"Ajudamos profissionais da saúde a pagar o mínimo de imposto permitido por lei, sem burocracia, com um contador dedicado que responde no WhatsApp em até 4 horas."*
+> "Contabilidade especializada para profissionais da saúde: você cuida dos pacientes, nós cuidamos para que você pague somente o imposto devido — com atendimento rápido pelo WhatsApp e uma equipe que entende a sua rotina."
