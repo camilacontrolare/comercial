@@ -36,6 +36,10 @@ Processo comercial do escritório de contabilidade, especializado em **profissio
 | 10 | [Métricas e rotina comercial](processo/10-metricas-e-rotina.md) | KPIs, metas e ritual semanal |
 | 11 | [Atendimento de leads de tráfego pago](processo/11-leads-trafego-pago.md) | Resposta em 5 min, cadência de 3 dias, feedback ao gestor de tráfego |
 
+## Landing page
+
+- [Landing page para os anúncios](landing-page/): página para profissionais da saúde com formulário que leva direto ao WhatsApp ([como publicar](landing-page/README.md))
+
 ## Modelos prontos
 
 - [Mensagens de WhatsApp e e-mail](modelos/mensagens.md)
