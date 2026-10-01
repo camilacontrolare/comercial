@@ -25,11 +25,14 @@ O Wix não aceita o envio de arquivos HTML como página. Por isso a landing page
 5. Em **Site configuration → Change site name**, troque o nome para algo como `controlare-saude`. O endereço vira `controlare-saude.netlify.app`, que já pode ser usado nos anúncios.
 
 ### 2. Usar o domínio da Controlare (opcional, recomendado)
-1. No Netlify: **Domain management → Add a domain** → digite `saude.contabilidadecontrolare.com.br` → confirme.
+1. No Netlify, abra o site (projeto) e vá em **Domain management** (ou **Project configuration → Domain management**) → **Add a domain** → digite `saude.contabilidadecontrolare.com.br` → confirme.
 2. O Netlify vai pedir um registro **CNAME** apontando para `controlare-saude.netlify.app`.
-3. Crie esse registro onde o DNS do domínio é gerenciado:
-   - **Se o domínio foi comprado ou conectado pelo Wix com os servidores do Wix:** no painel do Wix, vá em **Configurações → Domínios → ⋮ (ao lado do domínio) → Gerenciar registros DNS → CNAME → Adicionar registro**. Em *Nome do host*, coloque `saude`; em *Valor*, `controlare-saude.netlify.app`. Salve.
-   - **Se o domínio está registrado no Registro.br ou em outro provedor que gerencia o DNS:** crie o mesmo CNAME no painel desse provedor.
+3. Crie esse registro no **Registro.br**, onde o domínio está registrado e o DNS é gerenciado (o site no Wix está conectado por apontamento):
+   1. Acesse **registro.br** → **Entrar** e faça login.
+   2. Clique no domínio **contabilidadecontrolare.com.br**.
+   3. Na seção **DNS**, clique em **Configurar zona DNS** (ou **Editar zona**).
+   4. Clique em **Nova entrada** e preencha: Tipo **CNAME**, Nome **saude**, Dados **controlare-saude.netlify.app**.
+   5. Clique em **Salvar alterações**. **Não altere os registros que já existem** (eles mantêm o site do Wix no ar).
 4. Aguarde a propagação (normalmente minutos, podendo levar até 48 horas). O Netlify ativa o HTTPS (cadeado) automaticamente.
 
 ### 3. Ligar ao site atual
