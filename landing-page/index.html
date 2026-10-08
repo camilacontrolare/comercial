@@ -155,6 +155,44 @@
   .values .wrap { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 12px 28px; color: #fff; font-weight: 700; }
   .values span::before { content: "◆ "; color: var(--brand-bright); }
 
+
+  /* Simulador */
+  .sim { background: linear-gradient(180deg, #fff 0%, var(--brand-soft) 100%); }
+  .sim-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 28px; align-items: start; }
+  .sim-form { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 24px; }
+  .sim-form small { display: block; color: var(--muted); font-size: .8rem; margin-top: 4px; }
+  .money { display: flex; align-items: center; border: 1.5px solid var(--line); border-radius: 10px; background: #fff; }
+  .money:focus-within { border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
+  .money span { padding-left: 14px; color: var(--muted); font-weight: 600; }
+  .money input { border: 0 !important; box-shadow: none !important; padding-left: 8px !important; font-weight: 600; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .check { display: flex; gap: 10px; align-items: flex-start; font-size: .92rem; color: var(--ink); cursor: pointer; }
+  .check input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--brand-bright); flex: none; }
+  .sim-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .sim-card { background: #fff; border: 1.5px solid var(--line); border-radius: 16px; padding: 18px 16px; position: relative; }
+  .sim-card h3 { font-size: .95rem; margin: 0 0 10px; color: var(--muted); font-weight: 700; }
+  .sim-card .valor { font-size: 1.45rem; font-weight: 800; color: var(--ink); line-height: 1.1; }
+  .sim-card .valor small { font-size: .8rem; font-weight: 600; color: var(--muted); }
+  .sim-card .pct { font-size: .9rem; color: var(--muted); margin-top: 4px; }
+  .sim-card .obs { font-size: .78rem; color: var(--muted); margin: 10px 0 0; line-height: 1.4; }
+  .sim-card.best { border: 2px solid var(--brand-bright); box-shadow: 0 14px 30px -18px rgba(255,118,0,.6); }
+  .sim-card.best .badge { position: absolute; top: -12px; left: 14px; background: linear-gradient(135deg, var(--brand-bright), var(--accent-2)); color: #fff; font-size: .7rem; font-weight: 800; padding: 3px 10px; border-radius: 999px; }
+  .sim-card.best .valor { color: var(--brand); }
+  .sim-card.na { opacity: .55; }
+  .sim-fatorr { background: #fff; border-left: 4px solid var(--brand-bright); border-radius: 10px; padding: 14px 16px; margin: 16px 0; font-size: .95rem; }
+  .sim-detail { background: #fff; margin-bottom: 16px; }
+  .sim-table-wrap { overflow-x: auto; padding: 0 12px 14px; }
+  .sim-table { width: 100%; border-collapse: collapse; font-size: .85rem; min-width: 440px; }
+  .sim-table th, .sim-table td { padding: 7px 8px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  .sim-table th:first-child, .sim-table td:first-child { text-align: left; white-space: normal; }
+  .sim-table thead th { color: var(--muted); font-size: .78rem; }
+  .sim-table tr.total td { font-weight: 800; color: var(--ink); border-bottom: 0; }
+  #sim-cta { width: 100%; }
+  .sim-error { background: #fff4f2; color: #b42318; border-radius: 10px; padding: 12px 14px; font-weight: 600; }
+  .sim-note { margin-top: 22px; }
+  .hero-links { margin-top: 18px; }
+  .hero-links a { color: var(--brand); font-weight: 700; }
+
   /* Passos */
   .steps { counter-reset: step; }
   .step { position: relative; padding-top: 56px; }
@@ -209,7 +247,7 @@
   .wa-float svg { width: 32px; height: 32px; }
 
   @media (max-width: 900px) {
-    .hero-grid, .grid-2, .grid-3, .docs { grid-template-columns: 1fr; }
+    .hero-grid, .grid-2, .grid-3, .docs, .sim-grid { grid-template-columns: 1fr; }
     .grid-4 { grid-template-columns: repeat(2, 1fr); }
     .grid-5 { grid-template-columns: 1fr 1fr; }
     .hero { padding: 36px 0 56px; }
@@ -219,7 +257,11 @@
     .tagline { display: none; }
   }
   @media (max-width: 600px) {
-    .grid-4, .grid-5 { grid-template-columns: 1fr; }
+    .grid-4, .grid-5, .sim-cards { grid-template-columns: 1fr; }
+    .sim-card { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; align-items: baseline; }
+    .sim-card h3 { margin: 0; }
+    .sim-card .valor { grid-row: 1 / span 2; grid-column: 2; text-align: right; }
+    .sim-card .obs { grid-column: 1 / -1; }
     .plans-table thead th { font-size: .74rem; padding: 14px 2px; letter-spacing: -0.01em; }
     .plans-table th[scope=col]:not(:first-child) { width: 19%; }
     .plans-table thead th:first-child { padding-left: 12px; }
@@ -270,6 +312,7 @@
           <li>100% online em todo o Brasil: documentos por foto, assinatura pelo gov.br</li>
           <li>Troca de contador sem dor de cabeça: a gente cuida da transição</li>
         </ul>
+        <p class="hero-links"><a href="#simulador">Simule seus impostos: Simples × Lucro Presumido →</a></p>
         <a class="btn btn-primary hero-cta" href="#lead-form">Quero falar com um especialista</a>
       </div>
 
@@ -369,6 +412,62 @@
   </section>
 
   <!-- SERVIÇOS -->
+  <section class="sim" id="simulador">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Simulador tributário</span>
+        <h2>Quanto você pagaria de imposto em cada regime?</h2>
+        <p>Compare o Simples Nacional (Anexo III e Anexo V) com o Lucro Presumido em segundos. Os valores incluem os impostos da empresa e o INSS e o IR sobre o pró-labore.</p>
+      </div>
+      <div class="sim-grid">
+        <form class="sim-form" id="sim-form" novalidate>
+          <div class="field">
+            <label for="s-fat">Faturamento mensal médio</label>
+            <div class="money"><span>R$</span><input id="s-fat" inputmode="decimal" autocomplete="off" value="30.000"></div>
+          </div>
+          <div class="field">
+            <label for="s-pl">Pró-labore mensal (soma de todos os sócios)</label>
+            <div class="money"><span>R$</span><input id="s-pl" inputmode="decimal" autocomplete="off" value="1.621"></div>
+            <small>Mínimo de 1 salário mínimo por sócio.</small>
+          </div>
+          <div class="field">
+            <label for="s-sal">Salários de funcionários por mês</label>
+            <div class="money"><span>R$</span><input id="s-sal" inputmode="decimal" autocomplete="off" value="0"></div>
+            <small>Secretária, recepção, equipe. Deixe 0 se não tiver.</small>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="s-socios">Sócios</label>
+              <select id="s-socios"><option>1</option><option>2</option><option>3</option><option>4</option></select>
+            </div>
+            <div class="field">
+              <label for="s-iss">ISS do município</label>
+              <select id="s-iss"><option value="0.02">2%</option><option value="0.03" selected>3%</option><option value="0.04">4%</option><option value="0.05">5%</option></select>
+            </div>
+          </div>
+          <label class="check"><input type="checkbox" id="s-eq"><span>Clínica que atende os requisitos de <strong>equiparação hospitalar</strong></span></label>
+        </form>
+
+        <div class="sim-result" aria-live="polite">
+          <p class="sim-error" id="sim-error" hidden>Informe um faturamento mensal entre R$ 1.000 e R$ 300.000. Acima disso, fale com a gente para uma análise personalizada.</p>
+          <div id="sim-out">
+            <div class="sim-cards" id="sim-cards"></div>
+            <p class="sim-fatorr" id="sim-fatorr"></p>
+            <details class="sim-detail">
+              <summary>Ver detalhamento do cálculo</summary>
+              <div class="sim-table-wrap"><table class="sim-table" id="sim-table"></table></div>
+            </details>
+            <button type="button" class="btn btn-primary" id="sim-cta">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+              Quero uma análise do meu caso
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="fine sim-note">Simulação estimada, com as regras vigentes em 2026, considerando faturamento estável nos últimos 12 meses. Inclui: DAS do Simples (Anexos III e V, com Fator R de 28%), IRPJ, CSLL, PIS, Cofins, ISS e INSS patronal no Lucro Presumido, além do INSS (11%) e do IR sobre o pró-labore de cada sócio, sem dependentes. Não considera FGTS (igual nos regimes), retenções na fonte, ISS fixo de sociedade uniprofissional, a tributação de lucros distribuídos acima de R$ 50 mil por mês por sócio (Lei 15.270/2025) nem as mudanças da reforma tributária a partir de 2027 (CBS e IBS). A equiparação hospitalar exige requisitos específicos (sociedade empresária e normas da Anvisa). O resultado não é garantia de economia. O enquadramento correto depende da análise do seu caso.</p>
+    </div>
+  </section>
+
   <section class="alt">
     <div class="wrap">
       <div class="section-head">
@@ -541,7 +640,7 @@
         </details>
         <details>
           <summary>Médicos e dentistas podem ser optantes do Simples Nacional?</summary>
-          <div>Sim. As atividades de saúde podem optar pelo Simples Nacional, e o Fator R (relação entre folha de pagamento e faturamento) define em qual anexo a empresa é tributada. Por isso a análise do enquadramento é tão importante.</div>
+          <div>Sim. As atividades de saúde podem optar pelo Simples Nacional, e o Fator R (relação entre folha de pagamento e faturamento) define em qual anexo a empresa é tributada. Por isso a análise do enquadramento é tão importante. Use o <a href="#simulador">simulador</a> para ter uma ideia do seu caso.</div>
         </details>
         <details>
           <summary>Quanto custa?</summary>
@@ -642,6 +741,172 @@
       "Gostaria de falar sobre a minha contabilidade.";
     abrirWhatsApp(texto, "formulario");
   });
+
+
+  // ===== Simulador tributário (regras de 2026) =====
+  // Revise estes parâmetros todo início de ano.
+  var SIM = {
+    salarioMinimo: 1621.00,      // salário mínimo 2026
+    tetoINSS: 8475.55,           // teto do INSS 2026
+    inssSocio: 0.11,             // contribuição do sócio sobre o pró-labore
+    fgts: 0.08,                  // FGTS sobre salários (entra no Fator R)
+    encargosLPFolha: 0.278,      // Lucro Presumido: 20% patronal + RAT ~2% + terceiros 5,8% sobre salários
+    inssPatronalLPProlabore: 0.20, // Lucro Presumido: 20% patronal sobre o pró-labore
+    pis: 0.0065, cofins: 0.03,
+    // Simples Nacional - LC 123/2006 (faixas até R$ 3,6 milhões)
+    anexoIII: [[180000, 0.06, 0], [360000, 0.112, 9360], [720000, 0.135, 17640], [1800000, 0.16, 35640], [3600000, 0.21, 125640]],
+    anexoV:   [[180000, 0.155, 0], [360000, 0.18, 4500], [720000, 0.195, 9900], [1800000, 0.205, 17100], [3600000, 0.23, 62100]],
+    // IRPF mensal (tabela vigente desde mai/2025) + redução da Lei 15.270/2025
+    irpf: [[2428.80, 0, 0], [2826.65, 0.075, 182.16], [3751.05, 0.15, 394.16], [4664.68, 0.225, 675.49], [Infinity, 0.275, 908.73]],
+    descontoSimplificado: 607.20
+  };
+
+  function aliquotaSimples(tabela, rbt12) {
+    for (var i = 0; i < tabela.length; i++) {
+      if (rbt12 <= tabela[i][0]) return (rbt12 * tabela[i][1] - tabela[i][2]) / rbt12;
+    }
+    return null;
+  }
+
+  function irpfMensal(rendimento, inss) {
+    var base = rendimento - Math.max(inss, SIM.descontoSimplificado);
+    if (base <= 0) return 0;
+    var imposto = 0;
+    for (var i = 0; i < SIM.irpf.length; i++) {
+      if (base <= SIM.irpf[i][0]) { imposto = base * SIM.irpf[i][1] - SIM.irpf[i][2]; break; }
+    }
+    var reducao = 0;
+    if (rendimento <= 5000) reducao = 312.89;
+    else if (rendimento <= 7350) reducao = 978.62 - 0.133145 * rendimento;
+    return Math.max(0, imposto - Math.max(0, reducao));
+  }
+
+  // Encargos pessoais sobre o pró-labore (INSS + IRPF), somando todos os sócios
+  function encargosSocios(prolaboreTotal, socios) {
+    var cada = prolaboreTotal / socios;
+    var inss = Math.min(cada, SIM.tetoINSS) * SIM.inssSocio;
+    return { inss: inss * socios, irpf: irpfMensal(cada, inss) * socios };
+  }
+
+  function simular(e) {
+    // e: { faturamento, prolabore, salarios, socios, iss, equiparacao }
+    var fat = e.faturamento, rbt12 = fat * 12, socios = e.socios;
+    var prolaboreInformado = Math.max(e.prolabore, SIM.salarioMinimo * socios);
+    var folhaSalarios = e.salarios * (1 + SIM.fgts);
+    var fatorR = (prolaboreInformado + folhaSalarios) / fat;
+    var prolaboreFatorR = Math.max(prolaboreInformado, 0.28 * fat - folhaSalarios);
+
+    function cenario(nome, empresa, prolabore, detalhe) {
+      var p = encargosSocios(prolabore, socios);
+      var total = empresa + p.inss + p.irpf;
+      return { nome: nome, empresa: empresa, prolabore: prolabore, inss: p.inss, irpf: p.irpf,
+               total: total, pct: total / fat, detalhe: detalhe };
+    }
+
+    var aIII = aliquotaSimples(SIM.anexoIII, rbt12);
+    var aV = aliquotaSimples(SIM.anexoV, rbt12);
+
+    var anexoIII = cenario("Simples Nacional · Anexo III", fat * aIII, prolaboreFatorR,
+      "DAS com alíquota efetiva de " + (aIII * 100).toFixed(2).replace(".", ",") + "%");
+    var anexoV = cenario("Simples Nacional · Anexo V", fat * aV, prolaboreInformado,
+      "DAS com alíquota efetiva de " + (aV * 100).toFixed(2).replace(".", ",") + "%");
+    anexoV.naoSeAplica = fatorR >= 0.28;
+
+    var presIR = e.equiparacao ? 0.08 : 0.32, presCS = e.equiparacao ? 0.12 : 0.32;
+    var baseIR = fat * presIR;
+    var irpj = baseIR * 0.15 + Math.max(0, baseIR - 20000) * 0.10;
+    var csll = fat * presCS * 0.09;
+    var pisCofins = fat * (SIM.pis + SIM.cofins);
+    var iss = fat * e.iss;
+    var inssPatronal = prolaboreInformado * SIM.inssPatronalLPProlabore + e.salarios * SIM.encargosLPFolha;
+    var lp = cenario("Lucro Presumido" + (e.equiparacao ? " (equiparação hospitalar)" : ""),
+      irpj + csll + pisCofins + iss + inssPatronal, prolaboreInformado,
+      "IRPJ, CSLL, PIS, Cofins, ISS e INSS patronal");
+    lp.partes = { irpj: irpj, csll: csll, pisCofins: pisCofins, iss: iss, inssPatronal: inssPatronal };
+
+    var lista = [anexoIII, anexoV, lp];
+    var validos = lista.filter(function (c) { return !c.naoSeAplica; });
+    var melhor = validos.reduce(function (a, b) { return b.total < a.total ? b : a; });
+    var pior = validos.reduce(function (a, b) { return b.total > a.total ? b : a; });
+    return { cenarios: lista, melhor: melhor, economia: pior.total - melhor.total,
+             fatorR: fatorR, prolaboreFatorR: prolaboreFatorR, prolaboreInformado: prolaboreInformado };
+  }
+
+  var fmt = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+  var fmt2 = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
+  function pct(v) { return (v * 100).toFixed(1).replace(".", ",") + "%"; }
+  function numero(id) {
+    var v = document.getElementById(id).value.replace(/[^0-9,]/g, "").replace(",", ".");
+    return parseFloat(v) || 0;
+  }
+  function formatarCampo(el) {
+    var n = parseFloat(el.value.replace(/[^0-9,]/g, "").replace(",", ".")) || 0;
+    el.value = n.toLocaleString("pt-BR", { maximumFractionDigits: 2 });
+  }
+  var ultimo = null;
+
+  function atualizarSimulador() {
+    var fat = numero("s-fat");
+    var erro = document.getElementById("sim-error"), out = document.getElementById("sim-out");
+    if (fat < 1000 || fat > 300000) { erro.hidden = false; out.hidden = true; ultimo = null; return; }
+    erro.hidden = true; out.hidden = false;
+    var socios = parseInt(document.getElementById("s-socios").value, 10);
+    var r = simular({
+      faturamento: fat, prolabore: numero("s-pl"), salarios: numero("s-sal"), socios: socios,
+      iss: parseFloat(document.getElementById("s-iss").value), equiparacao: document.getElementById("s-eq").checked
+    });
+    ultimo = { r: r, fat: fat };
+
+    document.getElementById("sim-cards").innerHTML = r.cenarios.map(function (c) {
+      var best = c === r.melhor, cls = "sim-card" + (best ? " best" : "") + (c.naoSeAplica ? " na" : "");
+      var obs = c.naoSeAplica ? "Não se aplica: com a sua folha atual, a empresa já fica no Anexo III."
+              : (c.nome.indexOf("Anexo III") > -1 ? "Com pró-labore de " + fmt.format(c.prolabore) + " para atingir o Fator R." : c.detalhe + ".");
+      return '<div class="' + cls + '">' + (best ? '<span class="badge">Menor imposto estimado</span>' : "") +
+        "<h3>" + c.nome + "</h3>" +
+        '<div class="valor">' + fmt.format(c.total) + "<small>/mês</small></div>" +
+        '<div class="pct">' + pct(c.pct) + " do faturamento</div>" +
+        '<p class="obs">' + obs + "</p></div>";
+    }).join("");
+
+    var fr = document.getElementById("sim-fatorr");
+    if (r.fatorR >= 0.28) {
+      fr.innerHTML = "Seu <strong>Fator R</strong> é de <strong>" + pct(r.fatorR) + "</strong>: a folha já atinge 28% do faturamento, então no Simples a empresa fica no <strong>Anexo III</strong>.";
+    } else {
+      fr.innerHTML = "Seu <strong>Fator R</strong> hoje é de <strong>" + pct(r.fatorR) + "</strong>. Para ficar no <strong>Anexo III</strong>, a folha precisa chegar a 28% do faturamento, com um pró-labore total de cerca de <strong>" + fmt.format(r.prolaboreFatorR) + "</strong>. " +
+        (r.melhor.nome.indexOf("Anexo III") > -1 ? "Mesmo pagando mais INSS e IR sobre esse pró-labore, o Anexo III sai mais barato no seu caso." : "No seu caso, o custo do pró-labore maior não compensa a troca de anexo.");
+    }
+    if (r.economia > 0) fr.innerHTML += " Diferença entre o regime mais caro e o mais barato: <strong>" + fmt.format(r.economia) + " por mês</strong> (" + fmt.format(r.economia * 12) + " por ano).";
+
+    var linhas = [
+      ["Pró-labore considerado", "prolabore"], ["Impostos da empresa", "empresa"],
+      ["INSS dos sócios (11%)", "inss"], ["IR sobre o pró-labore", "irpf"], ["Total de impostos", "total"]
+    ];
+    var thead = "<thead><tr><th></th>" + r.cenarios.map(function (c) { return "<th>" + c.nome.replace("Simples Nacional · ", "") + "</th>"; }).join("") + "</tr></thead>";
+    var lp = r.cenarios[2].partes;
+    var extra = '<tr><td colspan="4" style="text-align:left;color:var(--muted);font-size:.8rem;padding-top:10px">Lucro Presumido: IRPJ ' + fmt2.format(lp.irpj) + " · CSLL " + fmt2.format(lp.csll) + " · PIS/Cofins " + fmt2.format(lp.pisCofins) + " · ISS " + fmt2.format(lp.iss) + " · INSS patronal " + fmt2.format(lp.inssPatronal) + "</td></tr>";
+    document.getElementById("sim-table").innerHTML = thead + "<tbody>" + linhas.map(function (l) {
+      return '<tr' + (l[1] === "total" ? ' class="total"' : "") + "><td>" + l[0] + "</td>" + r.cenarios.map(function (c) { return "<td>" + fmt2.format(c[l[1]]) + "</td>"; }).join("") + "</tr>";
+    }).join("") + extra + "</tbody>";
+  }
+
+  ["s-fat", "s-pl", "s-sal"].forEach(function (id) {
+    var el = document.getElementById(id);
+    el.addEventListener("input", atualizarSimulador);
+    el.addEventListener("blur", function () { formatarCampo(el); });
+  });
+  ["s-socios", "s-iss", "s-eq"].forEach(function (id) { document.getElementById(id).addEventListener("change", atualizarSimulador); });
+  document.getElementById("sim-form").addEventListener("submit", function (ev) { ev.preventDefault(); });
+  document.getElementById("sim-cta").addEventListener("click", function () {
+    var txt = "Olá! Fiz a simulação tributária no site e quero uma análise do meu caso.";
+    if (ultimo) {
+      txt += "\n• Faturamento mensal: " + fmt.format(ultimo.fat) +
+        "\n• Pró-labore: " + fmt.format(numero("s-pl")) + " · Salários: " + fmt.format(numero("s-sal")) +
+        "\n• Sócios: " + document.getElementById("s-socios").value +
+        "\n• Menor imposto estimado: " + ultimo.r.melhor.nome + " (" + fmt.format(ultimo.r.melhor.total) + "/mês)";
+    }
+    abrirWhatsApp(txt, "simulador");
+  });
+  atualizarSimulador();
 
   document.getElementById("ano").textContent = new Date().getFullYear();
 </script>

@@ -5,7 +5,7 @@ Página feita para receber os cliques do tráfego pago, com o logo, as cores (la
 - `index.html`: a página completa. O logo já está embutido no arquivo, então **basta publicar este arquivo**.
 - `logo.png`: cópia do logo, para outros usos.
 
-Conteúdo: formulário de qualificação, soluções, abertura de empresa médica (5 etapas, documentos e prazo de 48h em Juiz de Fora), tabela dos planos Essencial, Gestão e Premium (sem preços, só "a partir de R$ 297/mês"), diferenciais e perguntas frequentes.
+Conteúdo: formulário de qualificação, **simulador tributário** (Simples Anexo III × Anexo V × Lucro Presumido), soluções, abertura de empresa médica (5 etapas, documentos e prazo de 48h em Juiz de Fora), tabela dos planos Essencial, Gestão e Premium (sem preços, só "a partir de R$ 297/mês"), diferenciais e perguntas frequentes.
 
 ## Como funciona
 
@@ -42,6 +42,14 @@ No editor do Wix, adicione um botão ou item de menu "Contabilidade para a saúd
 No Netlify, abra o site → **Deploys** → arraste a pasta com o novo `index.html`. O endereço continua o mesmo.
 
 > **Pixel e Google Tag:** os códigos de medição instalados no Wix **não** valem para esta página. O gestor de tráfego precisa colar os códigos no `index.html` (há um espaço indicado no início do arquivo) antes de publicar.
+
+## Simulador tributário
+
+- Compara o **Simples Nacional – Anexo III** (com o pró-labore ajustado para o Fator R de 28%), o **Simples Nacional – Anexo V** e o **Lucro Presumido** (com opção de equiparação hospitalar).
+- O total inclui os impostos da empresa **e** o INSS (11%) e o IR sobre o pró-labore dos sócios. Assim fica visível o custo real de aumentar o pró-labore para atingir o Fator R.
+- Faixa aceita: faturamento de R$ 1 mil a R$ 300 mil por mês (até o sublimite de R$ 3,6 milhões por ano).
+- O botão "Quero uma análise do meu caso" abre o WhatsApp com o resumo da simulação, e a Camila já recebe os números do lead.
+- **Atualize todo início de ano** os parâmetros do bloco `var SIM = {...}` no final do `index.html`: salário mínimo, teto do INSS, tabela do IRPF e, a partir de 2027, as regras da reforma tributária (CBS e IBS).
 
 ## Para alterar
 
