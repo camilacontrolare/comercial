@@ -5,7 +5,7 @@ Página feita para receber os cliques do tráfego pago, com o logo, as cores (la
 - `index.html`: a página completa. O logo já está embutido no arquivo, então **basta publicar este arquivo**.
 - `logo.png`: cópia do logo, para outros usos.
 
-Conteúdo: formulário de qualificação, **simulador tributário** (Simples Anexo III × Anexo V × Lucro Presumido), soluções, abertura de empresa médica (5 etapas, documentos e prazo de 48h em Juiz de Fora), tabela dos planos Essencial, Gestão e Premium (sem preços, só "a partir de R$ 297/mês"), diferenciais e perguntas frequentes.
+Conteúdo: formulário de qualificação, **simulador tributário** (Simples Anexo III × Anexo V × Lucro Presumido), soluções, faixa animada com os públicos atendidos, abertura de empresa médica (5 etapas e prazo de 48h em Juiz de Fora), tabela dos planos Essencial, Gestão e Premium (sem preços, só "a partir de R$ 297/mês"), diferenciais e perguntas frequentes.
 
 ## Como funciona
 

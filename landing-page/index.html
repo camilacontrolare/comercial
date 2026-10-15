@@ -66,6 +66,8 @@
     font: inherit; font-weight: 700; text-decoration: none; border-radius: 12px; padding: 15px 24px; transition: background .15s, transform .15s; }
   .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #fff; }
   .btn-primary:hover { background: var(--accent-dark); transform: translateY(-1px); }
+  .btn-wa { background: linear-gradient(135deg, #1fae5b, #138a42); color: #fff; }
+  .btn-wa:hover { background: #0f7a3c; transform: translateY(-1px); }
   .btn-outline { background: transparent; color: var(--brand); border: 2px solid var(--brand); padding: 13px 22px; }
   .btn-outline:hover { background: var(--brand-soft); }
   .btn svg { width: 22px; height: 22px; flex: none; }
@@ -105,10 +107,21 @@
   .form-error { display: none; color: #b42318; font-size: .9rem; margin: 4px 0 0; }
 
   /* Para quem */
-  .pills { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-  .pill { background: #fff; border: 1.5px solid var(--line); border-radius: 999px; padding: 10px 18px; font-weight: 600; }
-  .who { padding: 40px 0; border-bottom: 1px solid var(--line); }
-  .who p { text-align: center; color: var(--muted); margin-bottom: 16px; font-weight: 600; }
+  .who { background: linear-gradient(135deg, var(--brand-bright), var(--accent-2)); padding: 26px 0 30px; overflow: hidden; }
+  .who p { text-align: center; color: #fff; margin: 0 0 16px; font-weight: 800; font-size: 1.15rem; padding: 0 20px; }
+  .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  .marquee-track { display: flex; width: max-content; animation: rolar 28s linear infinite; }
+  .marquee:hover .marquee-track { animation-play-state: paused; }
+  .marquee-group { display: flex; gap: 14px; padding-right: 14px; }
+  .pill { background: #fff; color: var(--ink); border-radius: 999px; padding: 12px 24px; font-weight: 800; font-size: 1.05rem; white-space: nowrap; box-shadow: 0 6px 16px -8px rgba(0,0,0,.35); }
+  .pill::before { content: "✚ "; color: var(--brand-bright); }
+  @keyframes rolar { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee { -webkit-mask-image: none; mask-image: none; }
+    .marquee-track { animation: none; width: auto; justify-content: center; }
+    .marquee-group { flex-wrap: wrap; justify-content: center; padding: 0 20px; }
+    .marquee-group[aria-hidden] { display: none; }
+  }
 
   /* Cards */
   .grid { display: grid; gap: 20px; }
@@ -190,8 +203,14 @@
   #sim-cta { width: 100%; }
   .sim-error { background: #fff4f2; color: #b42318; border-radius: 10px; padding: 12px 14px; font-weight: 600; }
   .sim-note { margin-top: 22px; }
-  .hero-links { margin-top: 18px; }
-  .hero-links a { color: var(--brand); font-weight: 700; }
+  .sim-link { margin-top: 24px; display: flex; align-items: center; gap: 14px; max-width: 520px; text-decoration: none; color: var(--ink);
+    background: #fff; border: 2px solid var(--brand-bright); border-radius: 16px; padding: 14px 18px; box-shadow: 0 12px 28px -16px rgba(255,118,0,.7); transition: transform .15s, box-shadow .15s; }
+  .sim-link:hover { transform: translateY(-2px); box-shadow: 0 16px 32px -14px rgba(255,118,0,.8); }
+  .sim-ico { flex: none; width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, var(--brand-bright), var(--accent-2)); }
+  .sim-ico svg { width: 26px; height: 26px; }
+  .sim-txt { font-weight: 800; font-size: 1.05rem; line-height: 1.3; }
+  .sim-txt small { display: block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--brand); }
+  .sim-arrow { margin-left: auto; font-size: 1.5rem; font-weight: 800; color: var(--brand-bright); }
 
   /* Passos */
   .steps { counter-reset: step; }
@@ -290,7 +309,7 @@
       </a>
       <p class="tagline">Mais que números, estratégia para <strong>o seu futuro.</strong></p>
     </div>
-    <a class="btn btn-primary js-wa" href="#" data-msg="Olá! Vim pelo site e quero falar sobre contabilidade para profissionais da saúde.">
+    <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e quero falar sobre contabilidade para profissionais da saúde.">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
       <span>Falar no WhatsApp</span>
     </a>
@@ -312,7 +331,11 @@
           <li>100% online em todo o Brasil: documentos por foto, assinatura pelo gov.br</li>
           <li>Troca de contador sem dor de cabeça: a gente cuida da transição</li>
         </ul>
-        <p class="hero-links"><a href="#simulador">Simule seus impostos: Simples × Lucro Presumido →</a></p>
+        <a class="sim-link" href="#simulador">
+          <span class="sim-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 19h8"/></svg></span>
+          <span class="sim-txt"><small>Grátis · resultado na hora</small>Simule seus impostos: Simples × Lucro Presumido</span>
+          <span class="sim-arrow" aria-hidden="true">→</span>
+        </a>
         <a class="btn btn-primary hero-cta" href="#lead-form">Quero falar com um especialista</a>
       </div>
 
@@ -358,7 +381,7 @@
           </select>
         </div>
         <p class="form-error" id="form-error" role="alert">Preencha todos os campos para continuar.</p>
-        <button class="btn btn-primary" type="submit">
+        <button class="btn btn-wa" type="submit">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
           Falar no WhatsApp
         </button>
@@ -369,16 +392,11 @@
 
   <!-- PARA QUEM -->
   <div class="who">
-    <div class="wrap">
-      <p>Atendemos profissionais e empresas da saúde</p>
-      <div class="pills">
-        <span class="pill">Médicos</span>
-        <span class="pill">Dentistas</span>
-        <span class="pill">Psicólogos</span>
-        <span class="pill">Fisioterapeutas</span>
-        <span class="pill">Nutricionistas</span>
-        <span class="pill">Fonoaudiólogos</span>
-        <span class="pill">Clínicas e consultórios</span>
+    <p>Atendemos profissionais e empresas da saúde</p>
+    <div class="marquee" aria-label="Médicos, Dentistas, Psicólogos, Fisioterapeutas, Nutricionistas, Fonoaudiólogos, Clínicas e consultórios">
+      <div class="marquee-track">
+        <div class="marquee-group"><span class="pill">Médicos</span><span class="pill">Dentistas</span><span class="pill">Psicólogos</span><span class="pill">Fisioterapeutas</span><span class="pill">Nutricionistas</span><span class="pill">Fonoaudiólogos</span><span class="pill">Clínicas e consultórios</span></div>
+        <div class="marquee-group" aria-hidden="true"><span class="pill">Médicos</span><span class="pill">Dentistas</span><span class="pill">Psicólogos</span><span class="pill">Fisioterapeutas</span><span class="pill">Nutricionistas</span><span class="pill">Fonoaudiólogos</span><span class="pill">Clínicas e consultórios</span></div>
       </div>
     </div>
   </div>
@@ -457,7 +475,7 @@
               <summary>Ver detalhamento do cálculo</summary>
               <div class="sim-table-wrap"><table class="sim-table" id="sim-table"></table></div>
             </details>
-            <button type="button" class="btn btn-primary" id="sim-cta">
+            <button type="button" class="btn btn-wa" id="sim-cta">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
               Quero uma análise do meu caso
             </button>
@@ -533,19 +551,6 @@
         <div class="card step"><h3>Consulta do nome</h3><p>Consultamos o nome escolhido e enviamos as taxas.</p></div>
         <div class="card step"><h3>Pagamento da taxa</h3><p>Você realiza o pagamento da taxa estadual.</p></div>
         <div class="card step"><h3>Assinatura digital</h3><p>Você assina o processo pelo gov.br, sem sair de casa.</p></div>
-      </div>
-      <div class="docs">
-        <div class="docs-title">
-          <h3>Documentos necessários</h3>
-          <p>Podem ser enviados por foto pelo WhatsApp.</p>
-        </div>
-        <ul>
-          <li>RG</li>
-          <li>CNH</li>
-          <li>Comprovante de residência</li>
-          <li>IPTU (pode estar no nome de parentes ou do proprietário, se o imóvel for alugado)</li>
-          <li>Certidão de casamento, se for o caso</li>
-        </ul>
       </div>
       <p class="fine">* Prazo para abertura em Juiz de Fora/MG, contado após o envio dos documentos e o pagamento das taxas. Em Juiz de Fora, a taxa estadual é de R$ 297,00 e a taxa municipal é isenta. Após a liberação da inscrição municipal, a empresa está apta a funcionar. Em outras cidades, prazos e taxas variam conforme os órgãos locais.</p>
       <p class="center" style="margin-top:24px"><a class="btn btn-primary js-wa" href="#" data-msg="Olá! Quero abrir minha empresa médica. Pode me ajudar?">Quero abrir minha empresa</a></p>
@@ -660,7 +665,7 @@
       <div class="box">
         <h2>Vamos organizar seus impostos?</h2>
         <p>Converse com a nossa equipe pelo WhatsApp e agende uma conversa de 30 minutos, sem compromisso.</p>
-        <a class="btn btn-primary js-wa" href="#" data-msg="Olá! Vim pelo site e quero agendar uma conversa sobre contabilidade para profissionais da saúde.">
+        <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e quero agendar uma conversa sobre contabilidade para profissionais da saúde.">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
           Falar no WhatsApp
         </a>
